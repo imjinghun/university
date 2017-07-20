@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/kbbackg">
+
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@id/android:list"
+        android:layout_weight="0.99"
+        android:headerDividersEnabled="false" />
+
+    <Button
+        android:id="@+id/note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEEE00"
+        android:textSize="20dp"
+        android:textColor="#EE0000"
+        android:text="作业" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:textSize="20dp"
+        android:text="退出登录" />
+</LinearLayout>

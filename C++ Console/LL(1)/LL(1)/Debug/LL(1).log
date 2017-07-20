@@ -1,0 +1,152 @@
+﻿生成启动时间为 2016/12/22 16:40:47。
+     1>项目“E:\C++program\LL(1)\LL(1)\LL(1).vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(2): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(3): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(8): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(8): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(9): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(9): error C2146: 语法错误: 缺少“;”(在标识符“char v1”的前面)
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(9): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(10): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(10): error C2146: 语法错误: 缺少“;”(在标识符“char v2”的前面)
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(10): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(10): error C2086: “int  ”: 重定义
+                 e:\c++program\ll(1)\ll(1)\main.cpp(9) : 参见“ ”的声明
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(11): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(11): error C2146: 语法错误: 缺少“;”(在标识符“int j”的前面)
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(11): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(13): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(14): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(14): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(14): error C2065: “char origin”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(14): error C2143: 语法错误 : 缺少“}”(在“;”的前面)
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(15): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(15): error C2146: 语法错误: 缺少“;”(在标识符“char array”的前面)
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(15): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(15): error C2086: “int   ”: 重定义
+                 e:\c++program\ll(1)\ll(1)\main.cpp(11) : 参见“  ”的声明
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(16): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(16): error C2146: 语法错误: 缺少“;”(在标识符“int length”的前面)
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(16): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(16): error C2086: “int  ”: 重定义
+                 e:\c++program\ll(1)\ll(1)\main.cpp(9) : 参见“ ”的声明
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(17): error C2059: 语法错误:“}”
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(17): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(19): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(19): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(20): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(20): error C2146: 语法错误: 缺少“;”(在标识符“type C”的前面)
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(20): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(20): error C2086: “int  ”: 重定义
+                 e:\c++program\ll(1)\ll(1)\main.cpp(9) : 参见“ ”的声明
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(21): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(21): error C2146: 语法错误: 缺少“;”(在标识符“void print”的前面)
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(21): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(21): error C2086: “int   ”: 重定义
+                 e:\c++program\ll(1)\ll(1)\main.cpp(11) : 参见“  ”的声明
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(21): error C3646: “ ”: 未知重写说明符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(22): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(22): error C2065: “int a”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(23): error C2143: 语法错误 : 缺少“;”(在“for”的前面)
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(23): error C2065: “a”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(23): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(24): error C2065: “   ”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(24): error C2146: 语法错误: 缺少“;”(在标识符“printf”的前面)
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(24): error C2065: “A”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(24): error C2065: “a”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(24): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(25): error C2146: 语法错误: 缺少“;”(在标识符“printf”的前面)
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(26): warning C4508: “void print”: 函数应返回一个值；假定“void”返回类型
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(26): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(28): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(28): error C2146: 语法错误: 缺少“;”(在标识符“void print1”的前面)
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(28): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(28): error C2086: “int  ”: 重定义
+                 e:\c++program\ll(1)\ll(1)\main.cpp(9) : 参见“ ”的声明
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(28): error C3646: “ ”: 未知重写说明符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(29): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(30): error C2065: “j”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(30): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(31): error C2065: “   ”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(31): error C2146: 语法错误: 缺少“;”(在标识符“printf”的前面)
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(31): warning C4566: 由通用字符名称“\u00A0”表示的字符不能在当前代码页(936)中表示出来
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(31): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(32): error C2143: 语法错误 : 缺少“;”(在“for”的前面)
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(32): error C2065: “j”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(32): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(33): error C2065: “   ”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(33): error C2146: 语法错误: 缺少“;”(在标识符“printf”的前面)
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(33): error C2065: “B”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(33): error C2065: “j”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(35): warning C4508: “void print1”: 函数应返回一个值；假定“void”返回类型
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(35): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(36): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(36): error C2146: 语法错误: 缺少“;”(在标识符“void main”的前面)
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(36): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(36): error C2086: “int   ”: 重定义
+                 e:\c++program\ll(1)\ll(1)\main.cpp(11) : 参见“  ”的声明
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(36): error C3646: “ ”: 未知重写说明符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(37): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(37): error C2065: “int m”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(37): error C2065: “n”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(37): error C2065: “k”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(37): error C2065: “flag”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(37): error C2065: “finish”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(37): error C2065: “  char ch”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(37): error C2065: “x”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(38): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(38): error C2065: “type cha”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(38): error C2146: 语法错误: 缺少“;”(在标识符“  e”的前面)
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(38): error C2065: “  e”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(38): error C2228: “.origin”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(40): error C2065: “e”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(40): error C2228: “.array”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(43): error C2065: “e”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(43): error C2228: “.length”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(44): error C2228: “.origin”的左边必须有类/结构/联合
+                 类型是“int”
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(45): error C2228: “.array”的左边必须有类/结构/联合
+                 类型是“int”
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(45): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(45): error C2065: “  t”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(45): error C2228: “.length”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(45): error C2065: “  g”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(45): error C2228: “.origin”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(46): error C2228: “.array”的左边必须有类/结构/联合
+                 类型是“int”
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(46): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(46): error C2065: “  g”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(46): error C2228: “.length”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(46): error C2065: “  g1”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(46): error C2228: “.origin”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(47): error C2228: “.origin”的左边必须有类/结构/联合
+                 类型是“int”
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(48): error C2228: “.array”的左边必须有类/结构/联合
+                 类型是“int”
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(48): error C3872: “0xa0”:  此字符不允许在标识符中使用
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(48): error C2065: “  s”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(48): error C2228: “.length”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(48): error C2065: “  s1”: 未声明的标识符
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(48): error C2228: “.origin”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(49): error C2228: “.origin”的左边必须有类/结构/联合
+                 类型是“int”
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(50): error C2228: “.array”的左边必须有类/结构/联合
+     1>e:\c++program\ll(1)\ll(1)\main.cpp(50): fatal error C1003: 错误计数超过 100；正在停止编译
+     1>已完成生成项目“E:\C++program\LL(1)\LL(1)\LL(1).vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.97

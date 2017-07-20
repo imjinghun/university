@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	 <package name="default" extends="struts-default">
+		<!--Action 实例 由Spring创建-->
+		
+		<!-- 用户Action -->
+		<action name="user_*" class="userAction" method="{1}">
+			<!-- 登陆失败 -->
+			<result name="userNoExist" >/login.jsp</result>
+			<result name="pwdError" >/login.jsp</result>
+			<!-- 登陆成功 -->
+			<result name="users">/users.jsp</result>
+			<result name="admin">/admin.jsp</result>
+			<result name="assessor">/assessor.jsp</result>
+			<result name="mgt">/mgt.jsp</result>
+			<!--注册成功 -->
+			<result name="userSave">/mid.jsp</result>
+			<!--注册失败 -->
+			<result name="userExist">/rightPages/zhuce.jsp</result>
+			<!-- 更新 删除用户信息 -->
+			<result name="updateSuccess">/rightPages/yhxx.jsp</result>
+			<result name="deleteSuccess">/rightPages/xtjs.html</result>
+			<!-- 修改密码 -->
+			<result name="updatePwdS">/rightPages/xgmm.jsp</result>
+			<!-- 用户列表 -->
+			<result name="listsuccess">/rightPages/yhgl.jsp</result>
+		</action>
+		
+		<!-- 需求Action -->
+		<action name="need_*" class="needAction" method="{1}">
+			
+			<!-- 需求保存 更新 删除  -->
+			<result name="saveSuccess">/rightPages/xqzj.jsp</result>
+			<result name="updateSuccess">/rightPages/xtjs.html</result>
+			<result name="deleteSuccess">/rightPages/xtjs.html</result>
+			
+			<!-- 需求列表 显示 -->
+			<result name="usersuccess">/rightPages/xqgl.jsp</result>
+			<result name="adminsuccess">/rightPages/xqglgly.jsp</result>
+			<result name="assessorsuccess">/rightPages/wlsh.jsp</result>
+			<result name="mgtsuccess">/rightPages/bmsh.jsp</result>
+			
+			<!-- 需求更新 形式 部门审核 -->
+			<result name="viewupdateuser">/rightPages/xqgledit.jsp</result>
+			<result name="viewupdateassessor">/rightPages/wlshshow.jsp</result>
+			<result name="viewupdatemgt">/rightPages/bmshshow.jsp</result>
+			
+			<!-- 需求详情查看 -->
+			<result name="view">/rightPages/xqshow.jsp</result>
+		</action>
+		
+	</package> 
+	
+	<!-- ajax和action交互 -->
+	<package name="ajaxuse" extends="json-default" namespace="/ajax">  
+       
+        <!-- 注册 -->
+        <action name="usercheck" class="userAction" method="userCheck">  
+            <result name="success" type="json"></result>  
+        </action>  
+        
+        <!-- 学科分类 -->
+        <action name="xk_*" class="xkAction" method="{1}">
+            <result name="success" type="json"></result>  
+        </action>
+        
+        <!-- 国民经济行业分类 -->
+        <action name="gm_*" class="gmAction" method="{1}">
+            <result name="success" type="json"></result>  
+        </action>
+        
+        <!-- 归口部门 -->
+        <action name="gk_*" class="gkAction" method="{1}">
+            <result name="success" type="json"></result>  
+        </action>
+        
+        <!-- 综合检索 -->
+        <action name="zhjs" class="zhAction">
+            <result name="success">/rightPages/tjcxzh2.jsp</result>  
+        </action>
+        <!-- 分类检索 -->
+        <action name="fljs" class="flAction">
+            <result name="success">/rightPages/tjcxfl2.jsp</result>  
+        </action>
+    </package>
+
+</struts>

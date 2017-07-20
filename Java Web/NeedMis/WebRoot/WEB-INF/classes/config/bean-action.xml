@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    	 http://www.springframework.org/schema/beans/spring-beans.xsd
+     	 http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context.xsd
+         http://www.springframework.org/schema/aop
+         http://www.springframework.org/schema/aop/spring-aop.xsd
+         http://www.springframework.org/schema/tx
+     	 http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+	<!-- Action 注入Service -->
+	<!-- 1. 用户模块 -->
+	<bean id="userAction" class="com.jing.action.UserAction" scope="prototype">
+		<property name="userService" ref="userService"></property>
+	</bean>
+	<!-- 2、需求 -->
+	<bean id="needAction" class="com.jing.action.NeedAction" scope="prototype">
+		<property name="needService" ref="needService"></property>
+	</bean>
+	<!-- 3、学科分类 -->
+	<bean id="xkAction" class="com.jing.action.XkAction" scope="prototype">
+		<property name="xkService" ref="xkService"></property>
+	</bean>
+	<!-- 4、国民经济行业分类 -->
+	<bean id="gmAction" class="com.jing.action.GmAction" scope="prototype">
+		<property name="gmService" ref="gmService"></property>
+	</bean>
+	<!-- 5、归口部门 -->
+	<bean id="gkAction" class="com.jing.action.GkAction" scope="prototype">
+		<property name="gkService" ref="gkService"></property>
+	</bean>
+	<!-- 6、综合检索 -->
+	<bean id="zhAction" class="com.jing.action.ZhAction" scope="prototype">
+		<property name="needService" ref="needService"></property>
+	</bean>
+	<!-- 7、分类检索 -->
+	<bean id="flAction" class="com.jing.action.FlAction" scope="prototype">
+		<property name="needService" ref="needService"></property>
+	</bean>
+</beans>     
+
+
+
+
+
+
+
+
+
+

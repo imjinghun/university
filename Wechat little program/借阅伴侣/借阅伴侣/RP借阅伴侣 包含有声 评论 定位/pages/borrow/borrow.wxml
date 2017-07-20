@@ -1,0 +1,18 @@
+<scroll-view class="c-minheight scroll-view_bottom" scroll-y="True" style="overflow-x: hidden; overflow-y:auto;"  lower-threshold="10">
+  <view class="view_booklist" wx:for="{{booklist}}" wx:key="">
+
+    <!-- 导航 start -->
+    <view class="navigator" >
+      <view class="view_book">
+        <text class="text_book">书名：{{item.name}}</text>
+        <text class="text_book">作者：{{item.author}}</text>
+        <text class="text_book">ISBN10：{{item.isbn}}</text>
+        <text class="text_book">借阅日期：{{item.starttime}}</text>
+        <text class="text_book">应还日期：{{item.endtime}}</text>
+        <button catchtap="ctapcancel" data-isbn="{{item.isbn}}">还书</button>
+      </view>
+    </view>
+
+    <!-- 导航 end -->
+  </view>
+</scroll-view>

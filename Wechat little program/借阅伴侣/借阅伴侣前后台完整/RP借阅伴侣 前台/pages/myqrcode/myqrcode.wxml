@@ -1,0 +1,3 @@
+<view class="view_tip">
+    <image src="../../images/myqrcode.png" class="img"></image>
+</view>

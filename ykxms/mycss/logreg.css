@@ -1,0 +1,81 @@
+.a1 {
+    font-size: 25px;
+    font-family: 幼圆;
+    text-decoration: none;
+    color: gray;
+}
+
+.a2 {
+    color: #504d4d;
+}
+
+a:hover {
+    color: rgb(252, 83, 103);
+    text-decoration: underline;
+}
+
+.input1 {
+    width: 200px;
+    height: 20px;
+}
+.button1
+{
+    width: 110px;
+    height: 28px;
+    font-size: 16px;
+    font-family: 幼圆;
+    background-color: rgba(136, 136, 136, 0.81);
+    color: white;
+    border-radius: 4px;
+    border: 0;
+}
+.button1:hover
+{
+    background-color: rgba(160, 158, 158, 0.81);
+}
+.submit {
+    width: 300px;
+    height: 35px;
+    font-size: 16px;
+    font-family: 幼圆;
+    background-color: rgba(252, 100, 118, 0.94);
+    color: white;
+    border-radius: 4px;
+    border: 0;
+}
+
+.submit:hover {
+    background-color: rgb(252, 83, 103);
+}
+
+.div2 {
+    position: relative;
+    top: 30%;
+    left: 35%;
+    width: 420px;
+    height: 260px;
+    margin-left: -2 10px;
+    background-color: rgba(255, 250, 240, 0.6);
+    border-radius: 10px;
+}
+.div3 {
+    position: relative;
+    top: 25%;
+    left: 35%;
+    width: 420px;
+    height: 340px;
+    margin-left: -2 10px;
+    background-color: rgba(255, 250, 240, 0.6);
+    border-radius: 10px;
+}
+.border {
+    border-right: 1px solid #ccc;
+}
+
+.border2 {
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+}

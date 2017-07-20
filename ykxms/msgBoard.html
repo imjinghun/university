@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="SHORTCUT ICON" href="images/logo.ico" />
+    <title>一口小美食-留言板</title>
+
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="mycss/indexup.css" />
+    <link rel="stylesheet" href="mycss/indexdown.css" />
+    <link rel="stylesheet" href="mycss/msgBoard.css" />
+
+    <script src="dist/js/jquery-3.1.1.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+        .bgimg {
+            background-image: url(images/msgBoard/msg.jpg);
+            width: 15%;
+            height: 500px;
+        }
+        
+        .bgimg1 {
+            background-image: url(images/msgBoard/msg2.jpg);
+            width: 70%;
+            height: 500px;
+        }
+        
+        .bgimg2 {
+            background-image: url(images/msgBoard/msg.jpg);
+            width: 15%;
+            height: 500px;
+        }
+    </style>
+    <script>
+        $(document).ready(function() {
+            $("#liu").fadeIn(2000);
+            $("#yan").fadeIn(6000);
+            $("#ba").fadeIn(10000);
+        });
+    </script>
+</head>
+
+<body>
+    <div class="div1">
+        <div style="position:absolute;left:100px;">
+            <font class="font1">爱上一口小，围着美食跑！</font>
+        </div>
+        <div class="div11">
+            <a href="login.html">登录</a>
+            <em>|</em>
+            <a href="register.html">注册</a>
+        </div>
+    </div>
+    <div class="div2">
+        <form class="navbar-form navbar-left" role="search">
+            <div class="div21">
+                <a href="index.html" style="text-decoration: none;">
+                    <img src="images/indeximg/logo.png">
+                    <img src="images/indeximg/brand.png">
+                </a>
+            </div>
+            <div class="div22">
+                <input type="text" class="form-control" style="width:330px;" value="请输入美食名称" autocomplete="off" onfocus="if(this.value=='请输入美食名称'){this.value='';}$(this).css('color','##777373');" onblur="if(this.value==''){this.value='请输入美食名称';$(this).css('color','#777373');}" />
+            </div>
+            <div class="div23">
+                <button type="submit" class="btn btn-default ">搜 索</button>
+            </div>
+            <div class="div24">
+                <img src="images/indeximg/xc.png">
+            </div>
+        </form>
+    </div>
+    <div class="div3">
+        <ul class="navul">
+            <li><a href="index.html">首页</a>
+            </li>
+            <li><a href="cookbook.html">好菜谱</a>
+            </li>
+            <li><a href="cook.html">找大厨</a>
+            </li>
+            <li><a href="talkFood.html">论美食</a>
+            </li>
+            <li><a href="msgBoard.html"  style="color:rgb(255, 245, 0);">留言板</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="divly">
+        <div class="divly1 bgimg">
+            <img src="images/msgBoard/liu.png" class="img" id="liu" />
+            <img src="images/msgBoard/yan.png" class="img2" id="yan" />
+            <img src="images/msgBoard/ba.png" class="img3" id="ba" />
+        </div>
+        <div class="divly2 bgimg1">
+            <font class="font">写下您宝贵的意见或建议吧</font>
+            <textarea></textarea>
+            <br/>
+            <button type="button" class="button">提 交</button>
+        </div>
+        <div class="divly3 bgimg2">
+            <font class="font2">联系我们</font>
+            <br/>
+            <img src="images/msgBoard/cus.png" style="position:relative;top:70px; " />
+            <br/>
+            <font class="font3">扫码调戏客服</font>
+        </div>
+    </div>
+</body>
+
+</html>

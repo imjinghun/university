@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//src/com/test/hadoop/hbase/HBaseAPIDemo.java=UTF-8
+encoding//src/com/test/hadoop/hbase/HBaseFilterDemo.java=UTF-8
+encoding//src/com/test/hadoop/mr/WCMapper.java=UTF-8
+encoding//src/com/test/hadoop/mr/WCReducer.java=UTF-8

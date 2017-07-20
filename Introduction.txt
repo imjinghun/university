@@ -1,0 +1,47 @@
+﻿说明：
+
+Java Web：
+
+	SYJ ：《EMP表员工信息增删改查》 数据库使用Oracle
+	
+	TechNeedSystem ：《河北重大技术需求征集系统模拟》 无框架
+
+	NeedMis ：《河北重大技术需求征集系统模拟》 SSH框架
+	
+	SSZYT ：《师生作业通》 留作业 传文件平台
+	
+	Book ：《图书管理系统》只用Struts2
+	
+	ClassMis和ClassMis2 ：《简单班级管理系统》 ClassMis用Struts2和hibernate，ClassMis2用SSH
+
+	Movie2：（二次开发）基于HBase数据库的电影网站
+	
+Client：
+	
+	FruitsPSI ：《水果进销存软件》 C#编写 使用EF框架 
+	
+	XMCBXY ：《项目成本效益评价软件》 （软件过程与管理课程任务）C#编写
+	
+Android：
+
+	MyNotes ：《读书笔记》 安卓app 
+	
+	SSZYT2：《师生作业通》安卓端
+	
+	ZKP：大二做的一个记事本
+	
+C++ Console：C++控制台的一些代码
+
+Java Console：Java控制台的一些代码
+
+PHP：php的一些练习代码
+
+Wechat little program：微信小程序代码
+	
+Other Practice：一些练习的代码
+
+sjms：设计模式程序
+
+rjgz：软件构造程序
+
+ykxms：一口小美食前端界面

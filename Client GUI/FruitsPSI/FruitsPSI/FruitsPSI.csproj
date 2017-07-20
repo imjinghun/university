@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2E21D17A-F624-4845-9B55-22A8FBD2E990}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FruitsPSI</RootNamespace>
+    <AssemblyName>FruitsPSI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Images\软件图标.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\..\..\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\..\..\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmChangePwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChangePwd.Designer.cs">
+      <DependentUpon>FrmChangePwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegister.Designer.cs">
+      <DependentUpon>FrmRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSPSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSPSelect.Designer.cs">
+      <DependentUpon>FrmSPSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FruitPSIDataSet.cs">
+      <DependentUpon>FruitPSIDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FruitPSIDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FruitPSIDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Account.cs" />
+    <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\FruitPSIContext.cs" />
+    <Compile Include="Models\ghyright.cs" />
+    <Compile Include="Models\ManagerInfo.cs" />
+    <Compile Include="Models\Mapping\AccountMap.cs" />
+    <Compile Include="Models\Mapping\CustomerMap.cs" />
+    <Compile Include="Models\Mapping\ghyrightMap.cs" />
+    <Compile Include="Models\Mapping\ManagerInfoMap.cs" />
+    <Compile Include="Models\Mapping\ProductMap.cs" />
+    <Compile Include="Models\Mapping\PurProductAllMap.cs" />
+    <Compile Include="Models\Mapping\PurProductEachMap.cs" />
+    <Compile Include="Models\Mapping\SaleProductAllMap.cs" />
+    <Compile Include="Models\Mapping\SaleProductEachMap.cs" />
+    <Compile Include="Models\Mapping\StaffInfoMap.cs" />
+    <Compile Include="Models\Mapping\SupplierMap.cs" />
+    <Compile Include="Models\Mapping\xsyrightMap.cs" />
+    <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\PurProductAll.cs" />
+    <Compile Include="Models\PurProductEach.cs" />
+    <Compile Include="Models\SaleProductAll.cs" />
+    <Compile Include="Models\SaleProductEach.cs" />
+    <Compile Include="Models\StaffInfo.cs" />
+    <Compile Include="Models\Supplier.cs" />
+    <Compile Include="Models\xsyright.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmChangePwd.resx">
+      <DependentUpon>FrmChangePwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegister.resx">
+      <DependentUpon>FrmRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSPSelect.resx">
+      <DependentUpon>FrmSPSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="FruitPSIDataSet.xsc">
+      <DependentUpon>FruitPSIDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FruitPSIDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FruitPSIDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FruitPSIDataSet.xss">
+      <DependentUpon>FruitPSIDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\保存.png" />
+    <Content Include="Images\修改.png" />
+    <Content Include="Images\关闭其他.png" />
+    <Content Include="Images\关闭当前.png" />
+    <Content Include="Images\关闭所有.png" />
+    <Content Include="Images\删除.png" />
+    <Content Include="Images\打印.png" />
+    <Content Include="Images\搜索.png" />
+    <Content Include="Images\注册背景.jpg" />
+    <Content Include="Images\登录图标.png" />
+    <Content Include="Images\登录背景.jpg" />
+    <Content Include="Images\软件图标.ico" />
+    <Content Include="Images\隐藏.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

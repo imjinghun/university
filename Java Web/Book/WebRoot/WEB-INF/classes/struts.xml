@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" 
+"http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="default" namespace="/action" extends="struts-default">
+ 		<action name="BookAdd" class="com.jing.action.BookAdd"> 
+ 			<result name="Success">../BookList.jsp</result> 
+ 			<result name="Error">../Error.jsp</result> 
+ 		</action>
+ 		
+ 		<action name="BookDelete" class="com.jing.action.BookDelete"> 
+ 			<result name="Success">../BookList.jsp</result> 
+ 			<result name="Error">../Error.jsp</result> 
+ 		</action>
+
+		<action name="BookEdit" class="com.jing.action.BookEdit"> 
+ 			<result name="Success">../BookList.jsp</result> 
+ 			<result name="Error">../Error.jsp</result> 
+ 		</action>
+ 		
+		<action name="login" class="com.jing.action.Login">
+			<result name="Success">../BookList.jsp</result>
+			<result name="Error">../ErrorLogin.jsp</result>
+		</action>
+		
+		<action name="register" class="com.jing.action.register">
+			<result name="Success">../index.jsp</result>
+			<result name="Error">../Errorregister.jsp</result>
+		</action>
+	</package>
+</struts>    

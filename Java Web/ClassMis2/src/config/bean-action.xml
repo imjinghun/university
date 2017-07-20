@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    	 http://www.springframework.org/schema/beans/spring-beans.xsd
+     	 http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context.xsd
+         http://www.springframework.org/schema/aop
+         http://www.springframework.org/schema/aop/spring-aop.xsd
+         http://www.springframework.org/schema/tx
+     	 http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+	<!-- Action 注入Service -->
+	<!-- 学生模块 -->
+	<bean id="stdAction" class="com.jing.action.StudentAction" scope="prototype">
+		<property name="stdService" ref="stdService"></property>
+		<property name="csService" ref="csService"></property>
+	</bean>
+	<!-- 班级 -->
+	<bean id="csAction" class="com.jing.action.ClassesAction" scope="prototype">
+		<property name="csService" ref="csService"></property>
+	</bean>
+	<!-- 课程 -->
+	<bean id="crAction" class="com.jing.action.CourseAction" scope="prototype">
+		<property name="crService" ref="crService"></property>
+	</bean>
+	<!-- 成绩 -->
+	<bean id="gdAction" class="com.jing.action.GradeAction" scope="prototype">
+		<property name="gradeService" ref="gdService"></property>
+		<property name="stdService" ref="stdService"></property>
+		<property name="crService" ref="crService"></property>
+	</bean>
+</beans>     
+
+
+
+
+
+
+
+
+
+

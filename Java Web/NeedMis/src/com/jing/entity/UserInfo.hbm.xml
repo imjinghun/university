@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.jing.entity">
+    <class name="UserInfo" table="userInfo" schema="dbo" catalog="TechNeedSystem">
+        <id name="username" type="java.lang.String">
+            <column name="Username" length="50" />
+            <generator class="assigned" />
+        </id>
+        <property name="password" type="java.lang.String">
+            <column name="Password" length="50" />
+        </property>
+        <property name="organcode" type="java.lang.String">
+            <column name="Organcode" length="50" />
+        </property>
+        <property name="organname" type="java.lang.String">
+            <column name="Organname" />
+        </property>
+        <property name="parentmgt" type="java.lang.String">
+            <column name="parentmgt" />
+        </property>
+        <property name="contactaddr" type="java.lang.String">
+            <column name="Contactaddr" />
+        </property>
+        <property name="unitweb" type="java.lang.String">
+            <column name="Unitweb" />
+        </property>
+        <property name="email" type="java.lang.String">
+            <column name="Email" length="50" />
+        </property>
+        <property name="legalperson" type="java.lang.String">
+            <column name="Legalperson" />
+        </property>
+        <property name="postcode" type="java.lang.String">
+            <column name="Postcode" length="10" />
+        </property>
+        <property name="contacts" type="java.lang.String">
+            <column name="Contacts" />
+        </property>
+        <property name="tel" type="java.lang.String">
+            <column name="Tel" length="15" />
+        </property>
+        <property name="phone" type="java.lang.String">
+            <column name="Phone" length="15" />
+        </property>
+        <property name="fax" type="java.lang.String">
+            <column name="Fax" length="15" />
+        </property>
+        <property name="glbm" type="java.lang.String">
+            <column name="Glbm" length="50" />
+        </property>
+        <property name="powers" type="java.lang.String">
+            <column name="Powers" length="20" />
+        </property>
+    </class>
+</hibernate-mapping>

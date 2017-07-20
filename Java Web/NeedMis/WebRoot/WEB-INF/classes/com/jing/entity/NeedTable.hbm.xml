@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.jing.entity">
+    <class name="NeedTable" table="needTable" schema="dbo" catalog="TechNeedSystem">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="native" />
+        </id>
+        <property name="organname" type="java.lang.String">
+            <column name="Organname" />
+        </property>
+        <property name="parentmgt" type="java.lang.String">
+            <column name="parentmgt" />
+        </property>
+        <property name="contactaddr" type="java.lang.String">
+            <column name="Contactaddr" />
+        </property>
+        <property name="locationArea" type="java.lang.String">
+            <column name="LocationArea" />
+        </property>
+        <property name="unitweb" type="java.lang.String">
+            <column name="Unitweb" />
+        </property>
+        <property name="email" type="java.lang.String">
+            <column name="Email" length="50" />
+        </property>
+        <property name="legalperson" type="java.lang.String">
+            <column name="Legalperson" />
+        </property>
+        <property name="postcode" type="java.lang.String">
+            <column name="Postcode" length="10" />
+        </property>
+        <property name="contacts" type="java.lang.String">
+            <column name="Contacts" />
+        </property>
+        <property name="tel" type="java.lang.String">
+            <column name="Tel" length="15" />
+        </property>
+        <property name="phone" type="java.lang.String">
+            <column name="Phone" length="15" />
+        </property>
+        <property name="fax" type="java.lang.String">
+            <column name="Fax" length="15" />
+        </property>
+        <property name="organattr" type="java.lang.String">
+            <column name="organattr" />
+        </property>
+        <property name="organInfo" type="java.lang.String">
+            <column name="organInfo" />
+        </property>
+        <property name="needname" type="java.lang.String">
+            <column name="needname" />
+        </property>
+        <property name="needsyear" type="java.lang.String">
+            <column name="needsyear" length="10" />
+        </property>
+        <property name="needeyear" type="java.lang.String">
+            <column name="needeyear" length="10" />
+        </property>
+        <property name="needoverview1" type="java.lang.String">
+            <column name="needoverview1" />
+        </property>
+        <property name="needoverview2" type="java.lang.String">
+            <column name="needoverview2" />
+        </property>
+        <property name="needoverview3" type="java.lang.String">
+            <column name="needoverview3" />
+        </property>
+        <property name="needkey" type="java.lang.String">
+            <column name="needkey" />
+        </property>
+        <property name="totalmoney" type="java.lang.Double">
+            <column name="totalmoney" precision="53" scale="0" />
+        </property>
+        <property name="needmodel" type="java.lang.String">
+            <column name="needmodel" />
+        </property>
+        <property name="coopunit" type="java.lang.String">
+            <column name="coopunit" />
+        </property>
+        <property name="restype" type="java.lang.String">
+            <column name="restype" />
+        </property>
+        <property name="subtype" type="java.lang.String">
+            <column name="subtype" />
+        </property>
+        <property name="needfield" type="java.lang.String">
+            <column name="needfield" />
+        </property>
+        <property name="needindustry" type="java.lang.String">
+            <column name="needindustry" />
+        </property>
+        <property name="states" type="java.lang.String">
+            <column name="states" length="20" />
+        </property>
+        <property name="xsshyj" type="java.lang.String">
+            <column name="xsshyj" />
+        </property>
+        <property name="glbm" type="java.lang.String">
+            <column name="glbm" />
+        </property>
+        <property name="bmshyj" type="java.lang.String">
+            <column name="bmshyj" />
+        </property>
+    </class>
+</hibernate-mapping>

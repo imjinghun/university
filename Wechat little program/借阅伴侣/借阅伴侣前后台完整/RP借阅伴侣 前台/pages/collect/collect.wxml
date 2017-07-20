@@ -1,0 +1,18 @@
+<scroll-view class="c-minheight scroll-view_bottom" scroll-y="True" style="overflow-x: hidden; overflow-y:auto;"  lower-threshold="10">
+  <view class="view_booklist" wx:for="{{booklist}}" wx:key="">
+
+    <!-- 导航 start -->
+    <view class="navigator" hover-class="navigator-hover" catchtap="ctapnav" data-content="{{item}}">
+      <view class="view_cover">
+        <image class="img_cover" mode="aspectFill" src="{{item.img}}" style="background-size: cover; background-position: center center; background-repeat: no-repeat; " />
+      </view>
+      <view class="view_book">
+        <text class="text_book">书名：{{item.name}}</text>
+        <text class="text_book">作者：{{item.author}}</text>
+        <text class="text_book">ISBN10：{{item.isbn}}</text>
+      </view>
+    </view>
+    <button catchtap="ctapcancel" data-isbn="{{item.isbn}}">取消收藏</button>
+    <!-- 导航 end -->
+  </view>
+</scroll-view>

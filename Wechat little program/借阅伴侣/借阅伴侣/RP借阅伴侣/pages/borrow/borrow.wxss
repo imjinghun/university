@@ -1,0 +1,38 @@
+.scroll-view_bottom {
+  display: block;
+  height: 100%;
+  margin: auto auto 0px;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  position: absolute;
+}
+.view_booklist {
+  width: 100%;
+  background-color:	#F0F0F0;
+  border-bottom: 1px solid #666;
+}
+.navigator {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 5px auto;
+  width: 100%;
+}
+
+.view_book {
+  align-self: stretch;
+  display: inline-block;
+  justify-content: space-between;
+  text-align: left;
+  width: 100%;
+}
+.text_book {
+  font-size: 14px;
+  color: #515151;
+  display: block;
+  margin: 20px;
+}

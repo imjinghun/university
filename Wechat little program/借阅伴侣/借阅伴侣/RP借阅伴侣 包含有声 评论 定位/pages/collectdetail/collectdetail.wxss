@@ -1,0 +1,147 @@
+.view {
+  height: 100%;
+  position: relative;
+}
+
+.view_top {
+  height:40%;
+  width: 100%;
+  text-align: right;
+  background-color: rgb(245, 240, 198);
+  position: relative;
+}
+
+.view_left {
+  width: 40%;
+  height: 100%;
+  position: relative;
+}
+
+.view_cover {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: auto;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  position: absolute;
+  height: 80%;
+  text-align: center;
+  width: 100%;
+}
+
+.img_cover {
+  height: 90%;
+  width: 80%;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  position: absolute;
+  display: inline-block;
+}
+
+.view_colbor {
+  height: 20%;
+  min-height: 30px;
+  margin-top: auto;
+  margin-bottom: 0px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  position: absolute;
+  display: block;
+  text-align: right;
+}
+.view_collect {
+  min-height: 0px;
+  height: 90%;
+  width: 70%;
+  display: inline-block;
+  position: absolute;
+  text-align: right;
+  margin-top: auto;
+  margin-bottom: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.img_collect {
+  width: 24px;
+  height: 24px;
+  margin-top: 5px;
+  /*margin-bottom: auto;*/
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  position: absolute;
+  display: inline-block;
+  margin-left: 9px;
+}
+
+.text_collect {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 16px;
+  margin-right: 5px;
+  color:#515151;
+}
+
+.view_right {
+  width: 60%;
+  height: 100%;
+  display: inline-block;
+  margin: 0px 0px auto auto;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: 0;
+  text-align: left;
+}
+
+.text_book {
+  font-size: 17px;
+  color: rgb(81, 81, 81);
+  display: block;
+  margin: 20px;
+}
+
+.view_bottom {
+  height: 60%;
+  margin-top: auto;
+  margin-bottom: 0px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  background-color: rgba(240, 240, 240, 1);
+}
+
+.view_intro {
+  margin: 5px;
+}
+
+.text_intro {
+  font-family: 'Microsoft YaHei';
+  font-size: 20px;
+  font-weight: bold;
+  color:#7A8B8B;
+}
+
+.text_detail {
+  margin: 5px 20px;
+  font-size: 16px;
+  line-height:130%; 
+}

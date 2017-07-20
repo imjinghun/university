@@ -1,0 +1,4 @@
+10 zhang M 2000
+20 wang F 1500
+30 li M 3000
+40 zhao F 100

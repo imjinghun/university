@@ -1,0 +1,54 @@
+{
+  "debug": true, 
+  "window": {
+    "navigationBarTextStyle": "white", 
+    "navigationBarBackgroundColor": "#000000", 
+    "navigationBarTitleText": "阅读伙伴", 
+    "backgroundColor": "#ffffff", 
+    "enablePullDownRefresh": false, 
+    "backgroundTextStyle": "dark"
+  }, 
+  "pages": [
+    "pages/index/index", 
+    "pages/scan/scan", 
+    "pages/mine/mine", 
+    "pages/search/search", 
+    "pages/book/book", 
+    "pages/login/login", 
+    "pages/samebook/samebook",
+    "pages/catalog/catalog",
+    "pages/srchdetail/srchdetail"
+  ], 
+  "tabBar": {
+    "color": "#7F8389", 
+    "selectedColor": "#41bbe8", 
+    "borderStyle": "black", 
+    "list": [
+      {
+        "text": "扫一扫",
+        "pagePath": "pages/scan/scan", 
+        "iconPath": "/images/scan.png", 
+        "selectedIconPath": "/images/scan2.png"
+      }, 
+      {
+        "text": "分类", 
+        "pagePath": "pages/index/index", 
+        "iconPath": "/images/classification.png",  
+        "selectedIconPath": "/images/classification2.png"  
+      }, 
+      {
+        "text": "个人中心", 
+        "pagePath": "pages/mine/mine", 
+        "iconPath": "/images/personalcenter.png",  
+        "selectedIconPath": "/images/personalcenter2.png"
+      }
+    ], 
+    "backgroundColor": "#F7F7FA"
+  }, 
+  "networkTimeout": {
+    "connectSocket": "", 
+    "request": 10000, 
+    "downloadFile": "", 
+    "uploadFile": ""
+  }
+}

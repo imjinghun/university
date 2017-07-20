@@ -1,0 +1,36 @@
+/* CSS Document */
+
+* {
+    /*页面紧邻四周无缝隙 padding可以去除*/
+    margin: 0;
+    padding: 0;
+}
+
+
+/*html 和 body的设置 使页面高度占满整个页面*/
+html {
+    min-height: 100%;
+    _height: 100%;
+    height: 100%;
+  /*   font-family: '微软雅黑';
+    font-size: 14px; 
+	color: #000;*/
+    background-color: #E3E3E3;
+}
+
+body {
+    min-height: 100%;
+    _height: 100%;
+    height: 100%;
+}
+
+.divbottom {
+    background: #E3E3E3;
+    /*width不设置也可以*/
+    width: 100%;
+    /*使页面高度占满整个页面*/
+    min-height: 100%;
+    _height: 100%;
+	/*overflow:auto 设置有滚动条时 div随着增加*/
+	overflow:auto;
+}

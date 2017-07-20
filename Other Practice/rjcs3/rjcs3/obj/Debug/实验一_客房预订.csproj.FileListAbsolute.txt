@@ -1,0 +1,23 @@
+D:\C#\刘丹软件测试\实验一_客房预订\实验一_客房预订\bin\Debug\实验一_客房预订.exe.config
+D:\C#\刘丹软件测试\实验一_客房预订\实验一_客房预订\bin\Debug\实验一_客房预订.exe
+D:\C#\刘丹软件测试\实验一_客房预订\实验一_客房预订\bin\Debug\实验一_客房预订.pdb
+D:\C#\刘丹软件测试\实验一_客房预订\实验一_客房预订\obj\Debug\实验一_客房预订.csprojResolveAssemblyReference.cache
+D:\C#\刘丹软件测试\实验一_客房预订\实验一_客房预订\obj\Debug\实验一_客房预订.mainForm.resources
+D:\C#\刘丹软件测试\实验一_客房预订\实验一_客房预订\obj\Debug\实验一_客房预订.Properties.Resources.resources
+D:\C#\刘丹软件测试\实验一_客房预订\实验一_客房预订\obj\Debug\实验一_客房预订.csproj.GenerateResource.Cache
+D:\C#\刘丹软件测试\实验一_客房预订\实验一_客房预订\obj\Debug\实验一_客房预订.exe.licenses
+D:\C#\刘丹软件测试\实验一_客房预订\实验一_客房预订\obj\Debug\实验一_客房预订.exe
+D:\C#\刘丹软件测试\实验一_客房预订\实验一_客房预订\obj\Debug\实验一_客房预订.pdb
+E:\C#\刘丹软件测试\实验一_客房预订\实验一_客房预订\bin\Debug\实验一_客房预订.exe.config
+E:\C#\刘丹软件测试\实验一_客房预订\实验一_客房预订\obj\Debug\实验一_客房预订.exe
+E:\C#\刘丹软件测试\实验一_客房预订\实验一_客房预订\obj\Debug\实验一_客房预订.pdb
+E:\C#\刘丹软件测试\实验一_客房预订\实验一_客房预订\bin\Debug\实验一_客房预订.exe
+E:\C#\刘丹软件测试\实验一_客房预订\实验一_客房预订\bin\Debug\实验一_客房预订.pdb
+E:\C#\刘丹软件测试\实验一_客房预订\实验一_客房预订\obj\Debug\实验一_客房预订.csprojResolveAssemblyReference.cache
+E:\C#\刘丹软件测试\实验一_客房预订\实验一_客房预订\obj\Debug\实验一_客房预订.mainForm.resources
+E:\C#\刘丹软件测试\实验一_客房预订\实验一_客房预订\obj\Debug\实验一_客房预订.Properties.Resources.resources
+E:\C#\刘丹软件测试\实验一_客房预订\实验一_客房预订\obj\Debug\实验一_客房预订.csproj.GenerateResource.Cache
+E:\C#\刘丹软件测试\实验一_客房预订\实验一_客房预订\obj\Debug\实验一_客房预订.exe.licenses
+C:\Users\jing\Documents\Tencent Files\1377525269\FileRecv\实验一_客房预订\实验一_客房预订\bin\Debug\实验一_客房预订.exe.config
+C:\Users\jing\Documents\Tencent Files\1377525269\FileRecv\实验一_客房预订\实验一_客房预订\obj\Debug\实验一_客房预订.exe
+C:\Users\jing\Documents\Tencent Files\1377525269\FileRecv\实验一_客房预订\实验一_客房预订\obj\Debug\实验一_客房预订.pdb

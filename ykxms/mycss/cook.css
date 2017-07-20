@@ -1,0 +1,123 @@
+.divcs{
+    position: absolute;
+    top:200px;
+    width:90%;
+    left:5%;
+    height:800px;
+    text-align: center;
+    background-color: #fff7cc;
+}
+.divcs1{
+    position: absolute;
+    width:200px;
+    height: 500px;
+    margin-left: 8%;
+    top:110px;   
+    float: left;
+}
+.divcs11{
+    position: relative;
+    width:200px;
+    height: 500px;
+    top:110px;   
+    float:right;
+    margin-right: 8%;
+}
+.divcs2{
+    position: absolute;
+    width:58%;
+    height: 50px;
+    float: left;
+    top:12px;
+    margin-left:27.3%;
+}
+
+.divcs00{
+    position:absolute;
+    top:1000px;
+    width:90%;
+    height:70px; 
+    left: 5%;
+    background-color:rgba(255, 206, 0, 0.58);
+    line-height:70px;
+    text-align:center;
+}
+.divcs0{
+    position: absolute;
+    top:1070px;
+    width:90%;
+    left: 5%;
+    height:800px;
+    text-align: center;
+}
+.divcs3{
+    position:absolute;
+    height:820px;
+    width:50%;
+    background-color: rgba(252, 232, 204, 0.48); 
+}
+.divcs4{
+    position:relative;
+    height:820px;
+    width:50%;
+    background-color:; 
+    float:right;
+    background-color: #efef80;
+}
+.divcs5{
+    position:relative; 
+    top:1890px;
+    height:240px;
+    text-align: center;
+    background-color: rgba(255, 255, 0, 0.67);
+    width:45%;
+    left:5%;
+    float:left;
+}
+.divcs6{
+    position:relative; 
+    top:1890px;
+    height:240px;
+    line-height: 240px;
+    width:45%;
+    background-color: rgba(255, 255, 0, 0.67);
+    float:left;
+    left:5%;
+}
+.csul {
+    margin-left:-9px;
+	float: left;
+	list-style-type: none;
+	position: absolute;
+    width:80%;
+    background-color: #fce8cc;
+}
+.csul li{
+	float: left;
+	padding-top: 15px;
+	padding-right: 32px;
+	padding-bottom: 20px;
+	padding-left: 35px;
+	list-style-type: none;
+	position: relative;
+    text-align: center;
+    margin-top:15px;
+    margin-left:-25px;
+}
+
+.csul li a
+{
+    font-size: 16px;
+    font-family: 宋体;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.csul li a:hover
+{
+    font-size: 16px;
+    font-family: 宋体;
+    font-weight: bold;
+    color:red;
+    text-decoration: none;
+}

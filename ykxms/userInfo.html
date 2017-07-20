@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="SHORTCUT ICON" href="images/logo.ico" />
+    <title>一口小美食-首页</title>
+
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="mycss/indexup.css" />
+    <link rel="stylesheet" href="mycss/userInfo.css" />
+
+    <script src="dist/js/jquery-3.1.1.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        .div11ul:hover {
+            background-color: rgba(255, 88, 0, 0.4);
+        }
+        
+        .div11 ul li a:hover {
+            background-color: rgba(255, 88, 0, 0.1);
+        }
+    </style>
+    <script>
+        function inImg() {
+            document.getElementById("ghtx").style.display = "block";
+        }
+
+        function outImg() {
+            document.getElementById("ghtx").style.display = "none";
+        }
+    </script>
+</head>
+
+<body onload="highOnclick(ul2,active)">
+    <div class="div1">
+        <div style="position:absolute;left:100px;">
+            <font class="font1">爱上一口小，围着美食跑！</font>
+        </div>
+        <div class="div11">
+            <ul class="nav navbar-nav navbar-right div11ul" style="height:40px;">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="height:40px;margin-top:-5px;">
+                                 京爱美食<strong class="caret"></strong>
+                            </a>
+                    <ul class="dropdown-menu" style="border-radius:4px;">
+                        <li>
+                            <a href="userInfo.html">个人中心</a>
+                        </li>
+                        <li>
+                            <a href="index.html">退出</a>
+                        </li>
+
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="div2">
+        <form class="navbar-form navbar-left" role="search">
+            <div class="div21">
+                <a href="index2.html" style="text-decoration: none;">
+                    <img src="images/indeximg/logo.png">
+                    <img src="images/indeximg/brand.png">
+                </a>
+            </div>
+            <div class="divuf">
+                <font>
+                    点击
+                    <a href="index2.html" style="text-decoration:none;">
+                        <img src="images/userInfo/zuojt.png" style="height:50px;margin-top:-5px;" />
+                    </a>
+                    ，返回主页哦
+                </font>
+            </div>
+            <div class="div24">
+                <img src="images/indeximg/xc.png">
+            </div>
+        </form>
+    </div>
+    <div style="width:100%;height:20px;background-color:rgba(247, 130, 30, 0.9);position:relative;top:130px;">
+    </div>
+    <div class="divInfo">
+        <div class="divInfohr1">
+            <hr style="height:1px;border:none;border-top:1px solid #a39e9e;" />
+        </div>
+        <div class="divInfotx">
+            <img src="images/userInfo/user.jpg" style="width:100%;border-radius:30px;float:left;" onmouseover="inImg()" onmouseout="outImg()" />
+            <a href="#" id="ghtx" onmouseover="inImg()">更换头像</a>
+        </div>
+        <div class="divInfohr2">
+            <hr style="height:1px;border:none;border-top:1px solid #a39e9e;" />
+        </div>
+    </div>
+    <div class="divzl">
+        <div style="background-color:rgba(255, 247, 204, 0.69);text-align:center;font-size:25px;">
+            <hr style="height:1px;border:none;border-top:1px solid #a39e9e" />
+            <font>个人资料</font>
+            <hr style="height:1px;border:none;border-top:1px solid #a39e9e;" />
+        </div>
+        <div class="divzlxq">
+           
+            <hr style="height:1px;border:none;border-top:1px solid #a39e9e;width:95%;position:relative;top:15px;" />
+            <font class="zlxq">基本资料</font>
+            <hr style="height:1px;border:none;border-top:1px solid #a39e9e;width:95%;"/>
+            
+            <div style="margin-left:5%;width:90%;" >
+                账号：&nbsp;&nbsp;ykx00000001      <br/><br/>
+                <font style="float:left;">昵称：&nbsp;&nbsp;京爱美食</font>
+                <button class="button1">修改昵称</button>
+                <br/><br/>
+                <font style="float:left;">密码：&nbsp;&nbsp;******</font>
+                <button class="button1">更改密码</button>
+                <br/><br/>
+                <font style="float:left;">手机：&nbsp;&nbsp;15226666666</font>
+                <button class="button1">更改手机</button>
+                <br/><br/>
+                <font style="float:left;">邮箱：&nbsp;&nbsp;（未绑定）</font>
+                <button class="button1">绑定邮箱</button>
+            </div>
+            
+            <hr style="height:1px;border:none;border-top:1px solid #a39e9e;width:95%;position:relative;top:15px;" />
+            <font class="zlxq">第三方账号绑定</font>
+            <hr style="height:1px;border:none;border-top:1px solid #a39e9e;width:95%;" />
+            
+            <div style="margin-left:5%;width:90%;">
+                <font style="float:left;">QQ ：&nbsp;&nbsp;100000</font>
+                <button class="button1">取消绑定</button>
+                <br/><br/>
+                <font style="float:left;">微信：&nbsp;&nbsp;、一口小</font>
+                <button class="button1">取消绑定</button>
+            </div>
+            
+            <hr style="height:1px;border:none;border-top:1px solid #a39e9e;width:95%;position:relative;top:15px;" />
+            <font class="zlxq">积分情况</font>
+            <hr style="height:1px;border:none;border-top:1px solid #a39e9e;width:95%;" />
+            
+            <div style="margin-left:5%;width:90%;">
+                总 积 分：&nbsp;&nbsp;99999 <br/><br/>
+                上月积分：&nbsp;&nbsp;521 <br/><br/>
+                上周积分：&nbsp;&nbsp;100 <br/><br/>
+                今日积分：&nbsp;&nbsp;0   <br/><br/><br/>
+            </div>
+        </div>
+        <div style="position:relative;left:5%;top:10px;height:20px;width:90%;">
+          
+        </div> 
+    </div>
+</body>
+
+</html>

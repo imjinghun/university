@@ -1,0 +1,3 @@
+<view class="view" >
+    <image src="../../images/scan2.png" class="img" bindtap="btnscan"></image>
+</view>

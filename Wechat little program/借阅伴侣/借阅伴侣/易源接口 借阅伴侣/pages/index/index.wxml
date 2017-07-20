@@ -1,0 +1,24 @@
+
+<!-- 页面上部分 start -->
+<view class="c-minheight view_top">
+  <view class="c-minheight view_logo">
+    <image class="image_logo" src="../../images/search.png" style="background-size:  100% 100%; background-position:  0% 0%; background-repeat:  no-repeat; " />
+    <text class="c-block text_logo">搜你所想</text>
+  </view>
+  <input class="c-block c-fullwidth input_search" name="input1" placeholder="书名、编号等" type="text" bindinput="inputsearch"/>
+  <button catchtap="ctapsearch" class="btn_search">
+    搜索
+  </button>
+</view>
+
+<!-- 页面上部分 end -->
+
+<!-- 页面下部分 start -->
+<scroll-view class="c-minheight scroll-view_bottom" scroll-y="true" style="overflow-x: hidden; overflow-y:auto;">
+  <navigator class="view_bookclass" wx:for="{{bookclass}}" wx:key="{{item.id}}" url="../samebook/samebook?id={{item.id}}&name={{item.name}}">
+    <text style="margin-top:10px;display:block;">{{item.name}}</text>
+    <image src="../../images/bookclass.png" class="bgimg"></image>
+  </navigator>
+</scroll-view>
+
+<!-- 页面下部分 end -->

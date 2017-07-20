@@ -1,0 +1,209 @@
+.view_top {
+  position: absolute;
+  min-height: 80px;
+  height: 20%;
+  display: block;
+  border-bottom-width: 1px;
+  border-style: none;
+  width: 100%;
+  flex-direction: row;
+  text-align: right;
+  margin-top: 0px;
+  background-color: #bebebe;
+}
+
+.view_logo {
+  min-height: 0px;
+  height: 32%;
+  position: absolute;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: auto;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  display: block;
+  align-self: flex-start;
+}
+
+.image_logo {
+  width: 20px;
+  height: 20px;
+  margin: auto auto auto 30%;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  position: absolute;
+  display: inline-block;
+  margin-left: 35%;
+}
+
+.text_logo {
+  display: inline-block;
+  font-family: "Microsoft YaHei";
+  color: #757575;
+  font-size: 18px;
+  height: 18px;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input_search {
+  border-width: 1px 0px 1px 1px;
+  margin-top: auto;
+  padding-top: 0px;
+  padding-left: 10px;
+  margin-bottom: auto;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  position: absolute;
+  display: inline-block;
+  width: 80%;
+  height: 35px;
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  background-color: rgb(255, 255, 255);
+  border-style: solid none solid solid;
+  border-color: rgb(255, 255, 255);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: left;
+}
+
+.btn_search {
+  width: 20%;
+  height: 35px;
+  align-self: center;
+  order: 1;
+  display: inline-block;
+  margin: auto 0px auto auto;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  position: absolute;
+  background-color: #41bbe8;
+  font-family: "Microsoft YaHei";
+  line-height: 35px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.scroll-view_bottom {
+  display: block;
+  height: 80%;
+  margin: auto auto 0px;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  position: absolute;
+  background-color: #fffacd; /* 电脑 #FFFACD 手机 #FFE7BA rgb(173, 255, 47) */
+}
+
+.view_bookclass {
+  margin: 10px 5%;
+  width: 130px;
+  height: 160px;
+  background: center;
+  background-color: #ffec8b; /* #FFEC8B #FFD39B #fc6*/
+  display: inline-block;
+  color: red;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.bgimg {
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin: auto;
+}
+
+/*历史记录 */
+
+.view_history {
+  height: 86%;
+  background-color: #fff;
+  width: 100%;
+  display: block;
+  margin-top: 22%;
+  position: absolute;
+}
+
+.view_htop {
+  height: 40px;
+  min-height: 0px;
+  width: 100%;
+  text-align: right;
+  position: relative;
+  background-color: #E5E5E5;
+}
+
+.view_lsjl {
+  min-height: 0px;
+  height: 40px;
+  width: 50%;
+  position: relative;
+  margin-left: 0px;
+  margin-right: auto;
+  text-align: left;
+  font-size: 16px;
+}
+
+.text_ssls {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.view_img {
+  width: 50%;
+  min-height: 0px;
+  height: 40px;
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: auto;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.history_clear {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.text_history {
+  display: inline-block;
+  margin: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="LjqTest"
+  id="myeclipse.1490855710422"
+  context-root="/LjqTest"
+  j2ee-spec="6.0"
+  archive="LjqTest.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

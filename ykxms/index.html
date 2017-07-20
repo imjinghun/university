@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="SHORTCUT ICON" href="images/logo.ico"/>
+    <title>一口小美食-首页</title>
+
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="mycss/indexup.css" />
+    <link rel="stylesheet" href="mycss/indexdown.css" />
+
+    <script src="dist/js/jquery-3.1.1.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+
+</head>
+
+<body onload="highOnclick(ul2,active)">
+    <div class="div1">
+        <div style="position:absolute;left:100px;">
+            <font class="font1">爱上一口小，围着美食跑！</font>
+        </div>
+        <div class="div11">
+            <a href="login.html">登录</a>
+            <em>|</em>
+            <a href="register.html">注册</a>
+        </div>
+    </div>
+    <div class="div2">
+        <form class="navbar-form navbar-left" role="search">
+            <div class="div21">
+                <a href="index.html" style="text-decoration: none;">
+                    <img src="images/indeximg/logo.png">
+                    <img src="images/indeximg/brand.png">
+                </a>
+            </div>
+            <div class="div22">
+                <input type="text" class="form-control" style="width:330px;" value="请输入美食名称" autocomplete="off" onfocus="if(this.value=='请输入美食名称'){this.value='';}$(this).css('color','##777373');" onblur="if(this.value==''){this.value='请输入美食名称';$(this).css('color','#777373');}" />
+            </div>
+            <div class="div23">
+                <button type="submit" class="btn btn-default ">搜 索</button>
+            </div>
+            <div class="div24">
+                <img src="images/indeximg/xc.png">
+            </div>
+        </form>
+    </div>
+    <div class="div3">
+        <ul class="navul">
+            <li><a href="index.html" style="color:rgb(255, 245, 0);">首页</a>
+            </li>
+            <li><a href="cookbook.html">好菜谱</a>
+            </li>
+            <li><a href="cook.html">找大厨</a>
+            </li>
+            <li><a href="talkFood.html">论美食</a>
+            </li>
+            <li><a href="msgBoard.html">留言板</a></li>
+        </ul>
+    </div>
+    <div style="width:90%;margin-left:5%;margin-top:200px;background-color:#fff7cc;height:1320px;">
+    <div class="container div4">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <div class="carousel slide" id="carousel-972682">
+                    <!--设置索引按钮个数 -->
+                    <ol class="carousel-indicators">
+                        <li class="active" data-slide-to="0" data-target="#carousel-972682">
+                        </li>
+                        <li data-slide-to="1" data-target="#carousel-972682">
+                        </li>
+                        <li data-slide-to="2" data-target="#carousel-972682">
+                        </li>
+                        <li data-slide-to="3" data-target="#carousel-972682">
+                        </li>
+
+                    </ol>
+                    <div class="carousel-inner">
+                        <!-- 设置轮播内容 -->
+                        <div class="item active">
+                            <a href="cookbook.html">
+                                <img alt="" src="images/indeximg/first.jpg" />
+                            </a>
+                            <div class="carousel-caption">
+                                <!-- 添加字幕 -->
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="cook.html">
+                                <img alt="" src="images/indeximg/second.jpg" />
+                            </a>
+
+                        </div>
+                        <div class="item">
+                            <a href="talkFood.html">
+                                <img alt="" src="images/indeximg/third.jpg" />
+                            </a>
+
+                        </div>
+                        <div class="item">
+                            <a href="msgBoard.html">
+                                <img alt="" src="images/indeximg/four.jpg" />
+                            </a>
+                        </div>
+                    </div> <a class="left carousel-control" href="#carousel-972682" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-972682" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="div5">
+        <ul class="downul">
+            <!-- 美食 -->
+            <li>
+                <a href="index.html">
+                    <img src="images/indeximg/niurou.jpg" />
+                    <br/>
+                    <br/> 小炒牛肉，小露身手
+                </a>
+            </li>
+            <li>
+                <a href="index.html">
+                    <img src="images/indeximg/jichi.jpg" />
+                    <br/>
+                    <br/> 板栗鸡翅，尽显搭配
+                </a>
+            </li>
+            <li>
+                <a href="index.html">
+                    <img src="images/indeximg/jizhua.jpg" />
+
+                    <br/>
+                    <br/> 香辣鸡爪，来一个
+                </a>
+            </li>
+            <!-- 厨师 -->
+            <li>
+                <a href="index.html">
+                    <img src="images/indeximg/cook1.jpg" />
+                    <br/>
+                    <br/> 魅力女厨
+                </a>
+            </li>
+            <li>
+                <a href="index.html">
+                    <img src="images/indeximg/cook2.jpg" />
+                    <br/>
+                    <br/> 厨师二号
+                </a>
+            </li>
+            <li>
+                <a href="index.html">
+                    <img src="images/indeximg/cook3.jpg" />
+                    <br/>
+                    <br/> 帅气男厨
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="div6">
+        <div style="position:relative; float:left; width:60%;">
+            <ul class="ullink">
+                <li><strong>友情链接：</strong></li>
+                <li><a target="_blank" href="http://life.iqiyi.com/">爱奇艺生活</a></li>
+                <li><a target="_blank" href="http://www.tjkx.com/">糖酒快讯</a></li>
+                <li><a target="_blank" href="http://www.appchina.com/">应用汇</a></li>
+                <li><a target="_blank" href="http://www.zhms.cn/">中华美食网</a></li>
+                <li><a target="_blank" href="http://www.pcbaby.com.cn/">太平洋亲子网</a></li>
+                <li><a target="_blank" href="http://www.greatchef.com.cn">名厨网</a></li>
+                <li><a target="_blank" href="http://www.meishij.net/">美食杰</a></li>
+                <li><a target="_blank" href="http://food.poco.cn/">POCO美食网</a></li>
+                <li><a target="_blank" href="http://www.canyin88.com/">红餐微杂志</a></li>
+                <li><a target="_blank" href="http://www.100ncy.com/">百年餐饮网</a></li>
+                <li><a target="_blank" href="http://www.21food.cn/">食品商务网</a></li>
+                <li><a target="_blank" href="http://www.mama.cn/">妈妈网</a></li>
+                <li><a target="_blank" href="http://www.qqbaobao.com/">亲宝网</a></li>
+                <li><a target="_blank" href="http://www.6296.com.cn/">6296网址大全</a></li>
+                <li><a target="_blank" href="http://www.city8.com/">中国地图</a></li>
+                <li><a target="_blank" href="http://www.39yst.com/">三九养生堂</a></li>
+                <li><a target="_blank" href="http://www.fancai.com/">饭菜网</a></li>
+                <li><a target="_blank" href="http://home.fang.com/">装修网</a></li>
+                <li><a target="_blank" href="http://www.boqii.com/">波奇网</a></li>
+                <li><a target="_blank" href="http://www.tangdou.com/">糖豆网</a></li>
+                <li><a target="_blank" href="http://www.hc360.com/">慧聪网</a></li>
+                <li><a target="_blank" href="http://www.258.com">企业服务平台</a></li>
+                <li><a target="_blank" href="http://www.smzdm.com/">什么值得买</a></li>
+                <li><a target="_blank" href="http://www.shipuxiu.com/" >食谱秀</a></li>
+                <li><a target="_blank" href="http://chihe.sohu.com">搜狐美食</a></li>
+                <li><a target="_blank" href="http://www.cswzg.com/">中国厨师网</a></li>
+                <li><a target="_blank" href="http://www.chushixiu.com/">厨师秀</a></li>
+                <li><a target="_blank" href="http://www.hongbeicn.com/">中国烘焙网</a></li>
+            </ul>
+        </div>
+        <div style="position:relative; float:right;">
+            <img src="images/indeximg/smcy.png" />
+            <img src="images/indeximg/gzwm.png" />
+        </div>
+    </div>
+    <div class="div7">
+        版权所有 © 2016 一口小美食 保留所有权利 &nbsp;
+        <img src="images/indeximg/beian.png" />
+        京公网安备 11011011011011号 / 京ICP证000000号 / 京ICP备11111111号
+    </div>
+</div>
+</body>
+
+</html>

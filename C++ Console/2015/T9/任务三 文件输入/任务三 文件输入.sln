@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "任务三 文件输入", "任务三 文件输入\任务三 文件输入.vcproj", "{C305F692-15E0-4A5F-B8A9-14C0E7672951}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C305F692-15E0-4A5F-B8A9-14C0E7672951}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C305F692-15E0-4A5F-B8A9-14C0E7672951}.Debug|Win32.Build.0 = Debug|Win32
+		{C305F692-15E0-4A5F-B8A9-14C0E7672951}.Release|Win32.ActiveCfg = Release|Win32
+		{C305F692-15E0-4A5F-B8A9-14C0E7672951}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

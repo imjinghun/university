@@ -1,0 +1,10 @@
+C:\Users\jing\Documents\Tencent Files\1377525269\FileRecv\实验一_客房预订\实验一_客房预订\bin\Debug\实验一_客房预订.exe.config
+C:\Users\jing\Documents\Tencent Files\1377525269\FileRecv\实验一_客房预订\实验一_客房预订\bin\Debug\实验一_客房预订.exe
+C:\Users\jing\Documents\Tencent Files\1377525269\FileRecv\实验一_客房预订\实验一_客房预订\bin\Debug\实验一_客房预订.pdb
+C:\Users\jing\Documents\Tencent Files\1377525269\FileRecv\实验一_客房预订\实验一_客房预订\obj\Debug\rjcs3.csprojResolveAssemblyReference.cache
+C:\Users\jing\Documents\Tencent Files\1377525269\FileRecv\实验一_客房预订\实验一_客房预订\obj\Debug\实验一_客房预订.mainForm.resources
+C:\Users\jing\Documents\Tencent Files\1377525269\FileRecv\实验一_客房预订\实验一_客房预订\obj\Debug\实验一_客房预订.Properties.Resources.resources
+C:\Users\jing\Documents\Tencent Files\1377525269\FileRecv\实验一_客房预订\实验一_客房预订\obj\Debug\rjcs3.csproj.GenerateResource.Cache
+C:\Users\jing\Documents\Tencent Files\1377525269\FileRecv\实验一_客房预订\实验一_客房预订\obj\Debug\实验一_客房预订.exe.licenses
+C:\Users\jing\Documents\Tencent Files\1377525269\FileRecv\实验一_客房预订\实验一_客房预订\obj\Debug\实验一_客房预订.exe
+C:\Users\jing\Documents\Tencent Files\1377525269\FileRecv\实验一_客房预订\实验一_客房预订\obj\Debug\实验一_客房预订.pdb

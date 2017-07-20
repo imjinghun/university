@@ -1,0 +1,61 @@
+.downul {
+	float: left;
+	list-style-type: none;
+	position: absolute;
+    width:980px;
+    background-color: rgba(247, 188, 188, 0.21);
+}
+.downul li{
+	float: left;
+	padding-top: 15px;
+	padding-right: 30px;
+	padding-bottom: 15px;
+	padding-left: 33px;
+	list-style-type: none;
+	position: relative;
+    text-align: center;
+}
+.downul li img:hover
+{
+    transform: scale(1.1); 
+    transition: all 1s ease 0s;  
+    -webkit-transform: scale(1.1);  
+    -webkit-transform: all 1s ease 0s; 
+}
+
+.downul li a
+{
+    font-size: 16px;
+    font-family: 宋体;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.downul li a:hover
+{
+    font-size: 16px;
+    font-family: 宋体;
+    font-weight: bold;
+    color:red;
+    text-decoration: none;
+}
+
+.ullink
+{
+    margin-top:10px;
+    float: left;
+	list-style-type: none;
+	position: absolute;
+    width:100%;
+}
+.ullink li{
+    float: left;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	list-style-type: none;
+	position: relative;
+    text-align: center;
+    margin-left: -5px;
+}

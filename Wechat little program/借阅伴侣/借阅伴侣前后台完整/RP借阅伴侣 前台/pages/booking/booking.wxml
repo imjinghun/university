@@ -1,0 +1,39 @@
+<view class="view_top">
+  <button catchtap="ctapbooking" >在线预订</button>
+</view>
+<scroll-view class="c-minheight scroll-view_bottom" scroll-y="True" style="overflow-x: hidden; overflow-y:auto;" lower-threshold="10">
+  <view class="view_booklist" wx:for="{{booklist}}" wx:key="">
+    <view class="navigator">
+      <view class="view_book">
+        <text class="text_book">书名： {{item.name}}
+        </text>
+        <text class="text_book">作者： {{item.author}}
+        </text>
+        <button catchtap="ctapcancel" data-content="{{item}}">取消预订</button>
+      </view>
+    </view>
+  </view>
+</scroll-view>
+
+<!-- 预订 -->
+<view class="c-minheight view_bottom {{showhidden}}">
+  <form class="c-minheight form" bindsubmit="formSubmit">
+    <view class="c-minheight form_view_top">
+      <text class="c-block text_name">书名:</text>
+      <input class="c-block c-fullwidth input_name" name="name" placeholder="请输入..." type="text" />
+      <text class="c-block text_author">作者:</text>
+      <input class="c-block c-fullwidth input_author" name="author" placeholder="请输入..." type="text" />
+    </view>
+    <view class="c-minheight form_view_bottom">
+      <button class="btn_reset" formType="submit" hover-class="button-hover" size="default" type="default">
+        提交
+      </button>
+      <button class="btn_reset" formType="reset" hover-class="button-hover" size="default" type="default">
+        重置
+      </button>
+      <button class="btn_reset" catchtap="ctaphidden">
+        取消
+      </button>
+    </view>
+  </form>
+</view>

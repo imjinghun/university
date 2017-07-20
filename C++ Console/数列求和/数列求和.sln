@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "数列求和", "数列求和\数列求和.vcproj", "{DC08B05F-0BEC-45A7-BBE8-803FB6161348}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC08B05F-0BEC-45A7-BBE8-803FB6161348}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DC08B05F-0BEC-45A7-BBE8-803FB6161348}.Debug|Win32.Build.0 = Debug|Win32
+		{DC08B05F-0BEC-45A7-BBE8-803FB6161348}.Release|Win32.ActiveCfg = Release|Win32
+		{DC08B05F-0BEC-45A7-BBE8-803FB6161348}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

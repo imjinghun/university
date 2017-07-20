@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="SHORTCUT ICON" href="images/logo.ico" />
+    <title>用户注册-一口小美食</title>
+    <link rel="stylesheet" href="mycss/logreg.css" />
+    <style type="text/css">
+        .bgimage {
+            background: url(images/logregimg/2.png);
+            background-color: rgba(255, 250, 240, 0.71);
+            width: 100%;
+            height: 650px;
+            text-align: center;
+        }
+    </style>
+
+    <script>
+        var curIndex = 0;
+        //时间间隔(单位毫秒)，每5秒钟显示一张，数组共有5张图片放在images/logregimg文件夹下。
+        var timeInterval = 3000;
+        var arr = new Array();
+        arr[0] = "images/logregimg/2.png";
+        arr[1] = "images/logregimg/3.png";
+        arr[2] = "images/logregimg/4.png";
+        setInterval(changeImg, timeInterval);
+
+        function changeImg() {
+            var obj = document.getElementById("bgdiv");
+            if (curIndex == arr.length - 1) {
+                curIndex = 0;
+            } else {
+                curIndex += 1;
+            }
+            document.getElementById("bgdiv").style.backgroundImage = "url(" + arr[curIndex] + ")";
+        }
+    </script>
+</head>
+
+<body>
+    <div class="bgimage" id="bgdiv">
+        <div class="div3">
+            <form name="form1" action="" method="post">
+                <table align="center" width="360px" height="15%">
+                    <tr height="15px">
+                    </tr>
+                    <tr height="35px">
+                        <td align="center" width="180px" class="border">
+                            <a href="login.html" class="a1">登录</a>
+                        </td>
+                        <td align="center">
+                            <a href="register.html" class="a1">注册</a>
+                        </td>
+                    </tr>
+                    <tr height="20px">
+                    </tr>
+                    <tr height="35px">
+                        <td align='right' colspan="2" class="border2">
+                            &nbsp;用户名:&nbsp;<input type="text" name="uname" class="input1" />&nbsp;
+                        </td>
+                    </tr>
+                    <tr height="35px">
+                        <td align='right' colspan="2" class="border2">
+                            &nbsp;手机号:&nbsp;<input type="text" name="phone" class="input1" />&nbsp;
+                        </td>
+                    </tr>
+                    <tr height="35px">
+                        <td align='right' colspan="2" class="border2">
+                            &nbsp;验证码:&nbsp;<input type="text" name="phone" style="width:82px;height:20px;"/>
+                            <input type="button" name="phone" value="获取验证码" class="button1" />&nbsp;
+                        </td>
+                    </tr>
+                    <tr height="35px">
+                        <td align='right' colspan="2" class="border2">
+                           &nbsp;&nbsp;密码:&nbsp;<input type="password" name="pw" class="input1" />&nbsp;
+                        </td>
+                    </tr>
+                    <tr height="35px">
+                        <td align='right' colspan="2" class="border2">
+                            确认密码:&nbsp;<input type="password" name="pw2" class="input1" />&nbsp;
+                        </td>
+                    </tr>
+                    <tr height="10px">
+                    </tr>
+                </table>
+            </form>
+            <table align="center" width="300px">
+                <tr height="35px">
+                    <td colspan="2" align="center">
+                        <a href="login.html">
+                            <input type="submit" name="sure" value="完成" class="submit" />
+                        </a>
+                    </td>
+                </tr>
+                <tr height="20px">
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

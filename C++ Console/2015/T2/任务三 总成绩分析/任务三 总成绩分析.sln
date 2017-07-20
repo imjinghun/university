@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "任务三 总成绩分析", "任务三 总成绩分析\任务三 总成绩分析.vcproj", "{17CEF0F5-0D39-4AE0-AAA2-0E8204F7F4FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17CEF0F5-0D39-4AE0-AAA2-0E8204F7F4FE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{17CEF0F5-0D39-4AE0-AAA2-0E8204F7F4FE}.Debug|Win32.Build.0 = Debug|Win32
+		{17CEF0F5-0D39-4AE0-AAA2-0E8204F7F4FE}.Release|Win32.ActiveCfg = Release|Win32
+		{17CEF0F5-0D39-4AE0-AAA2-0E8204F7F4FE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

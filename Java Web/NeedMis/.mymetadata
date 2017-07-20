@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="NeedMis"
+  id="myeclipse.1491095096414"
+  context-root="/NeedMis"
+  j2ee-spec="6.0"
+  archive="NeedMis.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

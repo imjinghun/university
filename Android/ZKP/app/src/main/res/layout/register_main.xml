@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/register">
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:text="输入学号"
+        android:textSize="25dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/textview4"
+        android:background="#EEC900"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_alignLeft="@+id/edittext2"
+        android:layout_alignStart="@+id/edittext2"
+        android:layout_alignRight="@+id/edittext2"
+        android:layout_alignEnd="@+id/edittext2" />
+
+    <TextView
+        android:id="@+id/textview5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textview4"
+        android:layout_below="@+id/textview4"
+        android:layout_marginTop="38dp"
+        android:text="输入密码"
+        android:textSize="25dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/textview6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textview5"
+        android:layout_below="@+id/textview5"
+        android:layout_marginTop="38dp"
+        android:text="确认密码"
+        android:textSize="25dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/textview5"
+        android:layout_marginLeft="32dp"
+        android:layout_toRightOf="@+id/textview5"
+        android:ems="10"
+        android:background="#EEC900"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edittext3"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/textview6"
+        android:layout_marginLeft="32dp"
+        android:layout_toRightOf="@+id/textview6"
+        android:ems="10"
+        android:background="#EEC900"
+        android:inputType="textPassword" />
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext2"
+        android:layout_marginTop="100dp"
+        android:onClick="reg"
+        android:textSize="25dp"
+        android:textColor="#080808"
+        android:background="#EE0000"
+        android:text="确认"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="！ 三个空均不可空 ！****学号不能重复**** "
+        android:textColor="#FF0000"
+        android:textSize="35dp"
+        android:background="#EEEE00"
+        android:layout_marginTop="100dp"
+        android:id="@+id/textView"
+        android:layout_below="@+id/reg"
+        android:layout_alignRight="@+id/edittext3"
+        android:layout_alignEnd="@+id/edittext3" />
+</RelativeLayout>

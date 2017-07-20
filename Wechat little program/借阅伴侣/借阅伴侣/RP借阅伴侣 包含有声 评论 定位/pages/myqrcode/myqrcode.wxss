@@ -1,0 +1,17 @@
+.view_tip {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.img {
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  position: absolute;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}

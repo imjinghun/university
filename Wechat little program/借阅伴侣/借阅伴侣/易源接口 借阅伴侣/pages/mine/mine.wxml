@@ -1,0 +1,18 @@
+<view class="c-minheight mineviewbottom" data-c_e_id="wx_view_a3405288">
+    <view class="c-minheight mineview0" data-c_e_id="wx_view_68177fca">
+        <image class="mineimg0" data-c_e_id="wx_image_80481303" mode="scaleToFill" src="../../images/collection2.png" style="background-size:  100% 100%; background-position:  0% 0%; background-repeat:  no-repeat;"/>
+        <image class="mineimg2" data-c_e_id="wx_image_e6cebddf" mode="scaleToFill" src="../../images/history2.png" style="background-size:  100% 100%; background-position:  0% 0%; background-repeat:  no-repeat;"/>
+    </view>
+    <view class="c-minheight mineview2" data-c_e_id="wx_view_c38e3325">
+        <text class="c-block minetext0" data-c_e_id="wx_text_4bad7dda">我的收藏</text>
+        <text class="c-block minetext2" data-c_e_id="wx_text_6c4f7b4c">历史记录</text>
+    </view>
+    <view class="c-minheight mineview3" data-c_e_id="wx_view_c733749d">
+        <image class="mineimg3" data-c_e_id="wx_image_ab80f1ff" mode="scaleToFill" src="../../images/message2.png" style="background-size:  100% 100%; background-position:  0% 0%; background-repeat:  no-repeat;"/>
+        <image class="mineimg4" data-c_e_id="wx_image_080f8e03" mode="scaleToFill" src="../../images/feedback2.png" style="background-size:  100% 100%; background-position:  0% 0%; background-repeat:  no-repeat;"/>
+    </view>
+    <view class="c-minheight mineview4" data-c_e_id="wx_view_35c37c4b">
+        <text class="c-block minetext3" data-c_e_id="wx_text_ec4d6ce2">消息中心</text>
+        <text class="c-block minetext4" data-c_e_id="wx_text_9300c16a">意见反馈</text>
+    </view>
+</view>

@@ -1,0 +1,10 @@
+E:\C#program\FruitsPSI\FruitsPSI\bin\Debug\FruitsPSI.exe.config
+E:\C#program\FruitsPSI\FruitsPSI\bin\Debug\FruitsPSI.exe
+E:\C#program\FruitsPSI\FruitsPSI\bin\Debug\FruitsPSI.pdb
+E:\C#program\FruitsPSI\FruitsPSI\obj\Debug\FruitsPSI.csprojResolveAssemblyReference.cache
+E:\C#program\FruitsPSI\FruitsPSI\obj\Debug\FruitsPSI.FrmLogin.resources
+E:\C#program\FruitsPSI\FruitsPSI\obj\Debug\FruitsPSI.Properties.Resources.resources
+E:\C#program\FruitsPSI\FruitsPSI\obj\Debug\FruitsPSI.csproj.GenerateResource.Cache
+E:\C#program\FruitsPSI\FruitsPSI\obj\Debug\FruitsPSI.exe
+E:\C#program\FruitsPSI\FruitsPSI\obj\Debug\FruitsPSI.pdb
+E:\C#program\FruitsPSI\FruitsPSI\obj\Debug\FruitsPSI.FrmRegister.resources

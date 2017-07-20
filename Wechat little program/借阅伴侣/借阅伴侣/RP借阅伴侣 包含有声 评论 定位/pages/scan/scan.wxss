@@ -1,0 +1,18 @@
+.view{
+    height:  100%;
+position: relative;
+}
+.img{
+    width:  100px;
+height:  100px;
+margin-top:  auto;
+margin-bottom:  auto;
+left:  0px;
+right:  0px;
+top:  0px;
+bottom:  0px;
+position:  absolute;
+display:  inline-block;
+margin-left: auto;
+margin-right: auto;
+}

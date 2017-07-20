@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "矩阵下三角问题", "矩阵下三角问题\矩阵下三角问题.vcproj", "{1BB4CD12-52F4-49AD-8CAF-9C05107ADA0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BB4CD12-52F4-49AD-8CAF-9C05107ADA0C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1BB4CD12-52F4-49AD-8CAF-9C05107ADA0C}.Debug|Win32.Build.0 = Debug|Win32
+		{1BB4CD12-52F4-49AD-8CAF-9C05107ADA0C}.Release|Win32.ActiveCfg = Release|Win32
+		{1BB4CD12-52F4-49AD-8CAF-9C05107ADA0C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

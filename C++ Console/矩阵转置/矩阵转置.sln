@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "矩阵转置", "矩阵转置\矩阵转置.vcproj", "{350528C9-13BA-4160-8019-C9E4C9E21C3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{350528C9-13BA-4160-8019-C9E4C9E21C3A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{350528C9-13BA-4160-8019-C9E4C9E21C3A}.Debug|Win32.Build.0 = Debug|Win32
+		{350528C9-13BA-4160-8019-C9E4C9E21C3A}.Release|Win32.ActiveCfg = Release|Win32
+		{350528C9-13BA-4160-8019-C9E4C9E21C3A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

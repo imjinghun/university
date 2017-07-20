@@ -1,0 +1,176 @@
+.divtf{
+    position:absolute;
+    top:200px;
+    width:90%;
+    height: 1800px;
+    margin-left: 5%;
+    background-color:#fff7cc;
+}
+.divtf1{
+    position: relative;
+    width:90%;
+    height: 70px;
+    left:5%;
+    margin-top: 10px;
+    border-radius: 6px;
+    background-color: rgba(255, 147, 0, 0.7);
+}
+.divtf11
+{
+    position: relative;
+    width:70%;
+    left:17%;
+}
+.divtf11 ul{
+    float:left;
+    list-style: none;
+    margin-left: 10px;
+}
+.divtf11 ul li{
+    float:left;
+    list-style: none;
+    font-size: 20px;
+    color:#656060;
+    padding: 5px 20px;
+    margin: 0 10px;
+}
+
+.divtf2{
+    position: relative;
+    width:90%;
+    height: 38px;
+    left:5%;
+    margin-top: 5px;
+    border-radius: 6px;
+    background-color:rgba(250, 144, 0, 0.6);
+}
+.divtf3{
+    position: relative;
+    width:60%;
+    height: 38px;
+    left:5%;
+    margin-top: 5px;
+    border-radius: 6px;
+    float:letf;
+    /*background-color:rgba(206, 201, 193, 0.51);*/
+}
+.divtf3ll
+{
+    height:50px;
+    width:50px;
+    border:1px solid rgb(92, 144, 104); 
+    text-align:center;color:rgb(92, 144, 104);
+    margin-left:10px;
+    margin-top: 5px;
+    float:left;
+}
+.a1
+{
+    margin-left:15px;
+    color:black;
+    font-family: 黑体Light;
+}
+.a1:hover
+{
+    color:red;
+}
+
+.a2{
+    margin-left:15px;
+    color:#968f8f;
+    font-family: 黑体Light;
+}
+.a2:hover{
+    color:#524f4f;
+    text-decoration: none;
+}
+.a3{
+    margin-right:20px;
+    color:#6c6a6a;
+    font-family: 黑体Light;
+}
+.a3:hover
+{
+    color:red;
+}
+
+.divtf4{
+    position: relative;
+    width:25%;
+    height:650px;
+    right:5%;
+    margin-top: 5px;
+    float:right;
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+}
+.divtf4 button{
+    position:relative;
+    top:10px;
+    background-color:rgba(255, 0, 59, 0.6);
+    font-size:20px;
+    font-family:幼圆;
+    border:none;
+    border-radius:6px;
+    height:38px;
+    width:80%;
+}
+.divtf4 button:hover{
+    background-color:rgba(255, 0, 78, 0.92);
+}
+
+.divtf41{
+    position:relative;
+    left:15px;
+    top:25px;
+    width:90%;
+}
+.divtf411{
+    color:red;
+    font-size:20px;
+    font-family:黑体;
+}
+.divtf412{
+    height: 20px;
+    width: 20px;
+    border-radius: 25px;
+    background-color: rgba(198, 195, 193, 0.63);
+    text-align: center;
+    line-height: 20px;
+    float:left;
+    margin-top:10px;
+    margin-left: 10px;
+}
+.divtf5{
+    position: relative;
+    width:90%;
+    height:560px;
+    margin-top: 300px;
+    float:left;
+    background-color:rgba(206, 201, 193, 0.51);
+}
+
+.divtf5 button{
+    border-radius:4px;
+    border:none;
+    background-color:rgba(0, 0, 255, 0.73);
+    font-size:16px;color:white;
+    width:60px; 
+    height:25px;
+    line-height:25px;
+}
+.divtf5 button:hover{
+    background-color:rgba(0, 69, 255, 0.73);
+}
+.divtf6{
+    position: relative;
+    width:90%;
+    height:40px;
+    line-height:40px;
+    left:5%;
+    margin-top: 20px;
+    float:left;
+    background-color:rgba(217, 232, 36, 0.74);
+    font-family: 华文行楷;
+    font-size: 20px;
+}

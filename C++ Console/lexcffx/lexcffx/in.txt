@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+void main
+{
+    int a,b;
+    a=4;
+    b=8;
+    int c=a+b;
+    cout<<c;
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HAdd</servlet-name>
+    <servlet-class>com.jing.servlet.HAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HDel</servlet-name>
+    <servlet-class>com.jing.servlet.HDel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HEdit</servlet-name>
+    <servlet-class>com.jing.servlet.HEdit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Msg</servlet-name>
+    <servlet-class>com.jing.servlet.Msg</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MsgTch</servlet-name>
+    <servlet-class>com.jing.servlet.MsgTch</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Test</servlet-name>
+    <servlet-class>com.jing.servlet.Test</servlet-class>
+  </servlet>
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>HAdd</servlet-name>
+    <url-pattern>/servlet/HAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HDel</servlet-name>
+    <url-pattern>/servlet/HDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HEdit</servlet-name>
+    <url-pattern>/servlet/HEdit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Msg</servlet-name>
+    <url-pattern>/servlet/Msg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MsgTch</servlet-name>
+    <url-pattern>/servlet/MsgTch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Test</servlet-name>
+    <url-pattern>/servlet/Test</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

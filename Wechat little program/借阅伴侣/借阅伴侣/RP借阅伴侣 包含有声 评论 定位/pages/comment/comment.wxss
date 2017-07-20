@@ -1,0 +1,41 @@
+/* pages/comment/comment.wxss */
+
+.star-image {
+  position: absolute;
+  top: 50rpx;
+  width: 150rpx;
+  height: 150rpx;
+  src: "../../images/normal.png";
+}
+
+.item {
+  position: absolute;
+  top: 50rpx;
+  width: 75rpx;
+  height: 150rpx;
+}
+
+.mystar {
+  position: relative;
+  width: 100%;
+  height: 20%;
+}
+
+.mycomment {
+  position: relative;
+  width: 100%;
+  height: 70%;
+}
+
+.mysubmit {
+  position: relative;
+  width: 100%;
+  margin-top: 90%;
+  height: 10%;
+}
+
+.btsubmit {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}

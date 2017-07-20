@@ -1,0 +1,23 @@
+<scroll-view class="c-minheight scroll-view_bottom" scroll-y="True" style="overflow-x: hidden; overflow-y:auto;" bindscrolltolower="pullUpLoad" lower-threshold="10">
+  <view class="view_booklist" wx:for="{{booklist}}" wx:key="{{item.id}}">
+
+    <!-- 导航 start -->
+    <navigator class="navigator" hover-class="navigator-hover" url="../srchdetail/srchdetail?id={{item.id}}">
+      <view class="view_cover">
+        <image class="img_cover" mode="aspectFill" src="{{item.image}}" style="background-size: cover; background-position: center center; background-repeat: no-repeat; " />
+      </view>
+      <view class="view_book">
+        <text class="text_book">书名：{{item.title}}</text>
+        <text class="text_book">作者：{{item.author}}</text>
+        <text class="text_book">ISBN10：{{item.isbn10}}</text>
+      </view>
+    </navigator>
+
+    <!-- 导航 end -->
+  </view>
+</scroll-view>
+<view>
+    <loading hidden="{{hidden}}">
+      加载中...
+    </loading>
+</view>

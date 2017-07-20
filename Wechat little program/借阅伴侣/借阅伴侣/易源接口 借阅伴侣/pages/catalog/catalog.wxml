@@ -1,0 +1,13 @@
+<view class="view_top">书籍详情</view>
+<view class="view_bottom">
+  <view class="view_table" wx:for="{{details}}" wx:key="">
+    <navigator class="navigator" hover-class="navigator-hover" url="../book/book?id={{item.id}}&idfirst={{idfirst}}&idlast={{idlast}}" >
+      {{index+1}} {{item.title}}
+    </navigator>
+  </view>
+</view>
+<view>
+    <loading hidden="{{hidden}}">
+      加载中...
+    </loading>
+</view>

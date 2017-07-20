@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "任务五 分数类", "任务五 分数类\任务五 分数类.vcproj", "{24151007-1C52-435E-980A-5D825B0E692B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24151007-1C52-435E-980A-5D825B0E692B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{24151007-1C52-435E-980A-5D825B0E692B}.Debug|Win32.Build.0 = Debug|Win32
+		{24151007-1C52-435E-980A-5D825B0E692B}.Release|Win32.ActiveCfg = Release|Win32
+		{24151007-1C52-435E-980A-5D825B0E692B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

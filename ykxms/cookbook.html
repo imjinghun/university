@@ -1,0 +1,787 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="SHORTCUT ICON" href="images/logo.ico" />
+    <title>一口小美食-好菜谱</title>
+
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="mycss/indexup.css" />
+    <link rel="stylesheet" href="mycss/indexdown.css" />
+    <link rel="stylesheet" href="mycss/cookbook.css" />
+
+    <style type="text/css">
+        .bgimg {
+            background-image: url(images/cookbook/fyf.jpg);
+            width: 100%;
+            height: 60px;
+        }
+    </style>
+
+    <script src="dist/js/jquery-3.1.1.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+
+    <script src="myjs/cookbook.js"></script>
+</head>
+
+<body>
+    <div class="div1">
+        <div style="position:absolute;left:100px;">
+            <font class="font1">爱上一口小，围着美食跑！</font>
+        </div>
+        <div class="div11">
+            <a href="login.html">登录</a>
+            <em>|</em>
+            <a href="register.html">注册</a>
+        </div>
+    </div>
+    <div class="div2">
+        <form class="navbar-form navbar-left" role="search">
+            <div class="div21">
+                <a href="index.html" style="text-decoration: none;">
+                    <img src="images/indeximg/logo.png">
+                    <img src="images/indeximg/brand.png">
+                </a>
+            </div>
+            <div class="div22">
+                <input type="text" class="form-control" style="width:330px;" value="请输入美食名称" autocomplete="off" onfocus="if(this.value=='请输入美食名称'){this.value='';}$(this).css('color','##777373');" onblur="if(this.value==''){this.value='请输入美食名称';$(this).css('color','#777373');}" />
+            </div>
+            <div class="div23">
+                <button type="submit" class="btn btn-default ">搜 索</button>
+            </div>
+            <div class="div24">
+                <img src="images/indeximg/xc.png">
+            </div>
+        </form>
+    </div>
+    <div class="div3">
+        <ul class="navul">
+            <li><a href="index.html">首页</a>
+            </li>
+            <li><a href="cookbook.html" style="color:rgb(255, 245, 0);">好菜谱</a>
+            </li>
+            <li><a href="cook.html">找大厨</a>
+            </li>
+            <li><a href="talkFood.html">论美食</a>
+            </li>
+            <li><a href="msgBoard.html">留言板</a></li>
+        </ul>
+    </div>
+    <div class="container divcp" style="height:1200px;background-color: #fff7cc;">
+        <div class="divcp01 bgimg">
+            <img src="images/cookbook/f1.jpg" style="float:left;" />
+            <font style="font-size:30px;">找到你的菜 &nbsp;&nbsp;&nbsp;&nbsp; Find your food</font>
+            <img src="images/cookbook/f2.jpg" style="float:right;" />
+        </div>
+        <div class="row clearfix divcp02">
+            <div class="col-md-12 column">
+                <div class="panel-group" id="msfl">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" style="background-color:#ff8900;">
+                            <a class="panel-title" data-toggle="collapse" data-parent="#msfl" href="#jccp" id="jc">家常菜谱</a>
+                        </div>
+                        <div id="jccp" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <a href="cookbook.html" style="color:black;">凉菜</a>&nbsp;&nbsp;
+                                <a href="cookbook.html" style="color:black;">热菜</a>
+                                <br/><br/>
+                                <a href="cookbook.html" style="color:black;">海鲜</a>&nbsp;&nbsp;
+                                <a href="cookbook.html" style="color:black;">素食</a>
+                                <br/><br/>
+                                <a href="cookbook.html" style="color:black;">汤粥</a>&nbsp;&nbsp;
+                                <a href="cookbook.html" style="color:black;">甜点</a><br/><br/>
+                                <a href="cookbook.html">更 多>></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" style="background-color:#ff8900;">
+                            <a class="panel-title collapsed" data-toggle="collapse" data-parent="#msfl" href="#zhcx" id="cx">中华菜系</a>
+                        </div>
+                        <div id="zhcx" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <a href="cookbook.html" style="color:black;">粤菜</a>&nbsp;&nbsp;
+                                <a href="cookbook.html" style="color:black;">川菜</a>
+                                <br/><br/>
+                                <a href="cookbook.html" style="color:black;">卤菜</a>&nbsp;&nbsp;
+                                <a href="cookbook.html" style="color:black;">浙菜</a>
+                                <br/><br/>
+                                <a href="cookbook.html" style="color:black;">京菜</a>&nbsp;&nbsp;
+                                <a href="cookbook.html" style="color:black;">沪菜</a>
+                                <br/><br/>
+                                <a href="cookbook.html" style="color:black;">浙菜</a>&nbsp;&nbsp;
+                                <a href="cookbook.html" style="color:black;">苏菜</a>
+                                <br/><br/>
+                                <a href="cookbook.html" style="color:black;">闽菜</a>&nbsp;&nbsp;
+                                <a href="cookbook.html" style="color:black;">豫菜</a><br/><br/>
+                                <a href="cookbook.html">更 多>></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" style="background-color:#ff8900;">
+                            <a class="panel-title collapsed" data-toggle="collapse" data-parent="#msfl" href="#gdxc" id="xc">各地小吃</a>
+                        </div>
+                        <div id="gdxc" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <a href="cookbook.html" style="color:black;">四川小吃</a><br/><br/>
+                                <a href="cookbook.html" style="color:black;">河北小吃</a><br/><br/>
+                                <a href="cookbook.html" style="color:black;">河南小吃</a><br/><br/>
+                                <a href="cookbook.html" style="color:black;">北京小吃</a><br/><br/>
+                                <a href="cookbook.html" style="color:black;">广东小吃</a><br/><br/>
+                                <a href="cookbook.html" style="color:black;">陕西小吃</a><br/><br/>
+                                <a href="cookbook.html" style="color:black;">宁夏小吃</a><br/><br/>
+                                <a href="cookbook.html" style="color:black;">湖南小吃</a><br/><br/>
+                                <a href="cookbook.html" style="color:black;">海南小吃</a><br/><br/>
+                                <a href="cookbook.html" style="color:black;">贵州小吃</a><br/><br/>
+                                <a href="cookbook.html" style="color:black;">台湾小吃</a><br/><br/>
+                                <a href="cookbook.html" style="color:black;">香港小吃</a><br/><br/>
+                                <a href="cookbook.html">更 多>></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" style="background-color:#ff8900;">
+                            <a class="panel-title collapsed" data-toggle="collapse" data-parent="#msfl" href="#wgcp" id="wp">外国菜谱</a>
+                        </div>
+                        <div id="wgcp" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <a href="cookbook.html" style="color:black;">韩国料理</a><br/><br/>
+                                <a href="cookbook.html" style="color:black;">日本料理</a><br/><br/>
+                                <a href="cookbook.html" style="color:black;">法国菜</a><br/><br/>
+                                <a href="cookbook.html" style="color:black;">意大利餐</a><br/><br/>
+                                <a href="cookbook.html" style="color:black;">墨西哥菜</a><br/><br/>
+                                <a href="cookbook.html">更 多>></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" style="background-color:#ff8900;">
+                            <a class="panel-title collapsed" data-toggle="collapse" data-parent="#msfl" href="#hb" id="hbei">烘焙</a>
+                        </div>
+                        <div id="hb" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <a href="cookbook.html" style="color:black;">面包</a>&nbsp;&nbsp;
+                                <a href="cookbook.html" style="color:black;">蛋糕</a><br/><br/>
+                                <a href="cookbook.html" style="color:black;">饼干</a>&nbsp;&nbsp;
+                                <a href="cookbook.html" style="color:black;">甜点</a><br/><br/>
+                                <a href="cookbook.html" style="color:black;">烘焙工具</a><br/><br/>
+                                <a href="cookbook.html" style="color:black;">烘焙原料</a><br/><br/>
+                                <a href="cookbook.html">更 多>></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" style="background-color:#ff8900;">
+                            <a class="panel-title collapsed" data-toggle="collapse" data-parent="#msfl" href="#sc" id="scai">食材</a>
+                        </div>
+                        <div id="sc" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <a href="cookbook.html" style="color:black;">西红柿</a>&nbsp;
+                                <a href="cookbook.html" style="color:black;">黄瓜</a><br/><br/>
+                                <a href="cookbook.html" style="color:black;">土豆</a>&nbsp;&nbsp;
+                                <a href="cookbook.html" style="color:black;">青椒</a><br/><br/>
+                                <a href="cookbook.html" style="color:black;">南瓜</a>&nbsp;&nbsp;
+                                <a href="cookbook.html" style="color:black;">冬瓜</a><br/><br/>
+                                <a href="cookbook.html" style="color:black;">丝瓜</a>&nbsp;&nbsp;
+                                <a href="cookbook.html" style="color:black;">山药</a><br/><br/>
+                                <a href="cookbook.html" style="color:black;">牛肉</a>&nbsp;&nbsp;
+                                <a href="cookbook.html" style="color:black;">鸡肉</a><br/><br/>
+                                <a href="cookbook.html" style="color:black;">鸡蛋</a>&nbsp;
+                                <a href="cookbook.html" style="color:black;">五花肉</a><br/><br/>
+                                <a href="cookbook.html">更 多>></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- 家常菜谱 -->
+        <div class="divcp03" id="cpjccp">
+            <ul class="cpul">
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/scxh.jpg" />
+                        <br/>
+                        <br/> 素炒茼蒿
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/cym.jpg" />
+                        <br/>
+                        <br/> 烧油麦
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/qccx.jpg" />
+                        <br/>
+                        <br/> 清炒菜心
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/qcwsx.jpg" />
+                        <br/>
+                        <br/> 清炒莴笋丝
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/hjj.jpg" />
+                        <br/>
+                        <br/> 黄金饺
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/wxxy.jpg" />
+                        <br/>
+                        <br/> 五香熏鱼
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/qzy.jpg" />
+                        <br/>
+                        <br/> 清蒸鱼
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/blyrb.jpg" />
+                        <br/>
+                        <br/> 板栗羊肉煲
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/wrysz.jpg" />
+                        <br/>
+                        <br/> 五仁养生粥
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/ngsyz.jpg" />
+                        <br/>
+                        <br/> 南瓜山药粥
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/nghsz.jpg" />
+                        <br/>
+                        <br/> 南瓜花生米糊
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/hlgty.jpg" />
+                        <br/>
+                        <br/> 火龙果汤圆
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- 中华菜系 -->
+        <div class="divcp03" id="cpzhcx" style="display:none;">
+            <ul class="cpul">
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/mxw.jpg" />
+                        <br/>
+                        <br/> 毛血旺
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/gsbqj.jpg" />
+                        <br/>
+                        <br/> 广式白切鸡
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/hmyr.jpg" />
+                        <br/>
+                        <br/> 红焖羊肉
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/mpdf.jpg" />
+                        <br/>
+                        <br/> 麻婆豆腐
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/njxcr.jpg" />
+                        <br/>
+                        <br/> 农家小炒肉
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/csclr.jpg" />
+                        <br/>
+                        <br/> 春笋炒腊肉
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/xrsly.jpg" />
+                        <br/>
+                        <br/> 湘乳烧鲈鱼
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/djyt.jpg" />
+                        <br/>
+                        <br/> 剁椒鱼头
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/jlpg.jpg" />
+                        <br/>
+                        <br/> 金兰排骨
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/sbjcz.jpg" />
+                        <br/>
+                        <br/> 三杯鸡翅中
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/zcs.jpg" />
+                        <br/>
+                        <br/> 炸葱酥
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/tslrf.jpg" />
+                        <br/>
+                        <br/> 台式卤肉饭
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- 各地小吃 -->
+        <div class="divcp03" id="cpgdxc" style="display:none;">
+            <ul class="cpul">
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/mlrty.jpg" />
+                        <br/>
+                        <br/> 麻辣肉汤圆
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/sxms.jpg" />
+                        <br/>
+                        <br/> 陕西麻食
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/scddm.jpg" />
+                        <br/>
+                        <br/> 四川担担面
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/sxhms.jpg" />
+                        <br/>
+                        <br/> 陕西烩麻食
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/wdh.jpg" />
+                        <br/>
+                        <br/> 豌豆黄
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/gdcf.jpg" />
+                        <br/>
+                        <br/> 广东肠粉
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/gtpbr.jpg" />
+                        <br/>
+                        <br/> 高邮蒲包肉
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/cwznr.jpg" />
+                        <br/>
+                        <br/> 川味蒸牛肉
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/xjcp.jpg" />
+                        <br/>
+                        <br/> 新疆炒片
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/lbjkkx.jpg" />
+                        <br/>
+                        <br/> 老北京开口笑
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/ldg.jpg" />
+                        <br/>
+                        <br/> 驴打滚
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/hnszb.jpg" />
+                        <br/>
+                        <br/> 海南手抓饼
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 外国菜谱 -->
+        <div class="divcp03" id="cpwgcp" style="display:none;">
+            <ul class="cpul">
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/hldnp.jpg" />
+                        <br/>
+                        <br/> 惠灵顿牛排
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/hxps.jpg" />
+                        <br/>
+                        <br/> 海鲜披萨
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/nypcng.jpg" />
+                        <br/>
+                        <br/> 奶油泡菜年糕
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/gdz.jpg" />
+                        <br/>
+                        <br/> 关东煮
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/fscy.jpg" />
+                        <br/>
+                        <br/> 法式橙鸭
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/hsljz.jpg" />
+                        <br/>
+                        <br/> 韩式辣鸡爪
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/hspccjr.jpg" />
+                        <br/>
+                        <br/> 韩式泡菜炒鸡肉
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/hxmzym.jpg" />
+                        <br/>
+                        <br/> 海鲜墨汁意面
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/jqyzcbf.jpg" />
+                        <br/>
+                        <br/> 金枪鱼紫菜包饭
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/ysrjxrm.jpg" />
+                        <br/>
+                        <br/> 意式肉酱虾仁面
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/zsktd.jpg" />
+                        <br/>
+                        <br/> 芝士烤土豆
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/ztlf.jpg" />
+                        <br/>
+                        <br/> 炸天妇罗
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 烘焙 -->
+        <div class="divcp03" id="cphb" style="display:none;">
+            <ul class="cpul">
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/blmb.jpg" />
+                        <br/>
+                        <br/> 菠萝面包
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/htxdg.jpg" />
+                        <br/>
+                        <br/> 核桃小蛋糕
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/ssts.jpg" />
+                        <br/>
+                        <br/> 双色吐司
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/hhs.jpg" />
+                        <br/>
+                        <br/> 荷花酥
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/syzmbg.jpg" />
+                        <br/>
+                        <br/> 山药芝麻饼干
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/xttq.jpg" />
+                        <br/>
+                        <br/> 小甜甜圈
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/zmdj.jpg" />
+                        <br/>
+                        <br/> 芝麻蛋卷
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/mymbg.jpg" />
+                        <br/>
+                        <br/> 蔓越莓饼干
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/wxxmgb.jpg" />
+                        <br/>
+                        <br/> 五香小米锅巴
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/zsyks.jpg" />
+                        <br/>
+                        <br/> 紫薯一口酥
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/nlmbj.jpg" />
+                        <br/>
+                        <br/> 奶酪面包卷
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/hzts.jpg" />
+                        <br/>
+                        <br/> 黑砖吐司
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- 食材 -->
+        <div class="divcp03" id="cpsc" style="display:none;">
+            <ul class="cpul">
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/mpdf.jpg" />
+                        <br/>
+                        <br/> 麻婆豆腐
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/cwznr.jpg" />
+                        <br/>
+                        <br/> 川味蒸牛肉
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/gsbqj.jpg" />
+                        <br/>
+                        <br/> 广式白切鸡
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/ngsyz.jpg" />
+                        <br/>
+                        <br/> 南瓜山药粥
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/ldg.jpg" />
+                        <br/>
+                        <br/> 驴打滚
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/fscy.jpg" />
+                        <br/>
+                        <br/> 法式橙鸭
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/scddm.jpg" />
+                        <br/>
+                        <br/> 四川担担面
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/wxxy.jpg" />
+                        <br/>
+                        <br/> 五香熏鱼
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/ngsyz.jpg" />
+                        <br/>
+                        <br/> 南瓜山药粥
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/qcwsx.jpg" />
+                        <br/>
+                        <br/> 清炒莴笋丝
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/xjcp.jpg" />
+                        <br/>
+                        <br/> 新疆炒片
+                    </a>
+                </li>
+                <li>
+                    <a href="cookbook.html">
+                        <img src="images/cookbook/scxh.jpg" />
+                        <br/>
+                        <br/> 素炒茼蒿
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="row clearfix divfenye">
+            <div class="col-md-12 column">
+                <ul class="pagination">
+                    <li>
+                        <a href="#">上一页</a>
+                    </li>
+                    <li>
+                        <a href="#">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+                    <li>
+                        <a href="#">...</a>
+                    </li>
+                    <li>
+                        <a href="#">10</a>
+                    </li>
+                    <li>
+                        <a href="#">下一页</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="divbottom">
+            <a href="index.html">
+                一口小美食-小口小口食
+            </a>
+
+            <font style="font-size:33px;color:#ffc400;font-family:华文行楷;margin-left:200px;">等待你加入我们</font>
+            <font style="margin-left:50px;font-size:30px;color:#ffa700;font-family:Comic Sans MS;">Waiting for you to join us</font>
+            <img src="images/cookbook/dn.png" style="position:relative;top:10px;float:right;margin-right:10px;" />
+        </div>
+    </div>
+
+
+</body>
+
+</html>

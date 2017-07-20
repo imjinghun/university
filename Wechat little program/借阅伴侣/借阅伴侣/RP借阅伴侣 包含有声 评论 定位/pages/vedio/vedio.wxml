@@ -1,0 +1,8 @@
+
+<!--pages/vedio/vedio.wxml-->
+<text>{{vediolist.albumTitle}}</text>
+<text>{{tip}}</text>
+<text>————————————————————————————————————————\n</text>
+<view class="main" wx:for="{{vediolist.data}}" wx:key="{{item}}">
+  <audio src="{{item.playUrl64}}" poster="{{item.albumImage}}" name="{{item.title}}" author="{{}}" controls loop></audio>
+</view>

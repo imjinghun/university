@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>servlet.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CourseAdd</servlet-name>
+    <servlet-class>servlet.course.CourseAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>stdAddCourse</servlet-name>
+    <servlet-class>servlet.course.stdAddCourse</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CourseEdit</servlet-name>
+    <servlet-class>servlet.course.CourseEdit</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CourseDel</servlet-name>
+    <servlet-class>servlet.course.CourseDel</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>stdDelCourse</servlet-name>
+    <servlet-class>servlet.course.stdDelCourse</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HAdd</servlet-name>
+    <servlet-class>servlet.homework.HAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HDel</servlet-name>
+    <servlet-class>servlet.homework.HDel</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HEdit</servlet-name>
+    <servlet-class>servlet.homework.HEdit</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Msg</servlet-name>
+    <servlet-class>servlet.homework.Msg</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MsgTch</servlet-name>
+    <servlet-class>servlet.homework.MsgTch</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>upload</servlet-name>
+    <servlet-class>servlet.file.upload</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>download</servlet-name>
+    <servlet-class>servlet.file.download</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>delete</servlet-name>
+    <servlet-class>servlet.file.delete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>downloadcommon</servlet-name>
+    <servlet-class>servlet.file.downloadcommon</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateUser</servlet-name>
+    <servlet-class>servlet.UpdateUser</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteUser</servlet-name>
+    <servlet-class>servlet.DeleteUser</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>progress</servlet-name>
+    <servlet-class>servlet.file.progress</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RevisePwd</servlet-name>
+    <servlet-class>servlet.RevisePwd</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/servlet/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlet/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CourseAdd</servlet-name>
+    <url-pattern>/servlet/CourseAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>stdAddCourse</servlet-name>
+    <url-pattern>/servlet/stdAddCourse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CourseEdit</servlet-name>
+    <url-pattern>/servlet/CourseEdit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CourseDel</servlet-name>
+    <url-pattern>/servlet/CourseDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>stdDelCourse</servlet-name>
+    <url-pattern>/servlet/stdDelCourse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HAdd</servlet-name>
+    <url-pattern>/servlet/HAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HDel</servlet-name>
+    <url-pattern>/servlet/HDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HEdit</servlet-name>
+    <url-pattern>/servlet/HEdit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Msg</servlet-name>
+    <url-pattern>/servlet/Msg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MsgTch</servlet-name>
+    <url-pattern>/servlet/MsgTch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>upload</servlet-name>
+    <url-pattern>/servlet/upload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>download</servlet-name>
+    <url-pattern>/servlet/download</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delete</servlet-name>
+    <url-pattern>/servlet/delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>downloadcommon</servlet-name>
+    <url-pattern>/servlet/downloadcommon</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateUser</servlet-name>
+    <url-pattern>/servlet/UpdateUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteUser</servlet-name>
+    <url-pattern>/servlet/DeleteUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>progress</servlet-name>
+    <url-pattern>/servlet/progress</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RevisePwd</servlet-name>
+    <url-pattern>/servlet/RevisePwd</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

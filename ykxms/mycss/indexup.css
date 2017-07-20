@@ -1,0 +1,152 @@
+ .div1 {
+     position: absolute;
+     top: 0;
+     width: 100%;
+     height: 40px;
+     line-height: 40px;
+     background-color: rgba(204, 208, 159, 0.28);
+     color: black;
+ }
+ 
+ .div11 {
+     position: absolute;
+     right: 1%;
+     top: 0;
+ }
+ 
+ .div2 {
+     position: absolute;
+     top: 40px;
+     width: 100%;
+     height: 90px;
+     line-height: 80px;
+     background-color: rgba(252, 242, 242, 0.69);
+ }
+ 
+ .div21 {
+     position: absolute;
+     top: 5px;
+     left: 100px;
+     width: 300px;
+ }
+ 
+ .div22 {
+     position: absolute;
+     left: 450px;
+     top: 30px;
+     height: 50px;
+ }
+ 
+ .div23 {
+     position: absolute;
+     top: 30px;
+     left: 780px;
+ }
+ 
+ .div24 {
+     position: absolute;
+     top: 25%;
+     left: 1000px;
+ }
+ 
+ .div3 {
+     position: absolute;
+     top: 130px;
+     width: 100%;
+     height: 55px;
+     line-height: 35px;
+     background-color: rgba(247, 130, 30, 0.9);
+     text-align: center;
+ }
+ 
+ .div4 {
+     position: relative;
+     top: 10px;
+     width: 1010px;
+ }
+ 
+ .div5 {
+     position: absolute;
+     width: 980px;
+     height: auto;
+     bottom: 0px;
+     left: 50%;
+     top: 700px;
+     margin-left: -490px;
+     margin-top: -100px;
+     /* background-color: aqua;
+            text-align: center;
+            border:solid 3px #ccc;
+            z-index:99;  
+            */
+ }
+ 
+ .div6 {
+     position: absolute;
+     width: 980px;
+     height: auto;
+     bottom: 0px;
+     left: 50%;
+     top: 1320px;
+     margin-left: -490px;
+     margin-top: -100px;
+ }
+ .div7 {
+     position: absolute;
+     width: 980px;
+     height: 60px;
+     bottom: 0px;
+     left: 50%;
+     top: 1560px;
+     margin-left: -490px;
+     margin-top: -100px;
+     text-align: center;
+ }
+ 
+ .navul {
+     list-style: none;
+     font-size: 22px;
+     width: 760px;
+     height: 55px;
+     margin: auto;
+     text-align: center;
+ }
+ 
+ .navul li {
+     float: left;
+     padding-left: 0px;
+     padding-right: 0px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    /* background-color: rgba(245, 137, 137, 0.49);*/
+ }
+
+ .navul li a {
+     color: black;
+     text-decoration: none;
+     font-family: "幼圆";
+     font-size: 22px;
+     font-weight: bold;
+     padding-top: 13px;
+     padding-right: 25px;
+     padding-bottom: 14px;
+     padding-left: 25px;
+ }
+ 
+ .navul a:hover {
+     text-decoration: none;
+     font-family: "幼圆";
+     font-size: 22px;
+     color: #e51717;
+     background-color: rgba(255, 255, 224, 0.55);
+     padding-top: 16px;
+     padding-right: 25px;
+     padding-bottom: 17px;
+     padding-left: 25px;
+ }
+ 
+ .font1 {
+     font-family: 微软雅黑;
+     color: black;
+     font-size: 15px;
+ }

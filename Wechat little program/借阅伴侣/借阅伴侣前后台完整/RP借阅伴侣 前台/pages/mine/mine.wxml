@@ -1,0 +1,39 @@
+<view class="c-minheight" class="view {{showhidden0}}">
+  <view class="c-minheight view_bottom" >
+    <view class="c-minheight view_img" >
+      <image class="img" mode="scaleToFill" src="../../images/collection2.png" catchtap="ctapcollect"/>
+    </view>
+    <view class="c-minheight view_text">
+      <text class="c-block text">我的收藏</text>
+    </view>
+  </view>
+  <view class="c-minheight view_bottom">
+    <view class="c-minheight view_img" >
+      <image class="img" mode="scaleToFill" src="../../images/history2.png" catchtap="ctapborrow"/>
+    </view>
+    <view class="c-minheight view_text">
+      <text class="c-block text">借阅信息</text>
+    </view>
+  </view>
+  <view class="c-minheight view_bottom">
+    <view class="c-minheight view_img">
+      <image class="img" mode="scaleToFill" src="../../images/booking.png" catchtap="ctapbooking"/>
+    </view>
+    <view class="c-minheight view_text">
+      <text class="c-block text">在线预订</text>
+    </view>
+  </view>
+  <view class="c-minheight view_bottom">
+    <view class="c-minheight view_img">
+      <image class="img" mode="scaleToFill" src="../../images/qrcode.png" catchtap="ctapqrcode"/>
+    </view>
+    <view class="c-minheight view_text">
+      <text class="c-block text">我的二维码</text>
+    </view>
+  </view>
+</view>
+<!-- 提示登录后使用 -->
+<view class="view_tip {{showhidden1}}">
+<text style="font-size:16px;margin:10px;display:block;">如果点击授权无响应，请退出并删除小程序，重新进入时接受授权。</text>
+    <button class="btn_login" bindtap="btlogin">授权享用</button>
+</view>

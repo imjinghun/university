@@ -1,0 +1,52 @@
+<view class=" view">
+
+  <!-- 上部分start -->
+  <view class=" view_top">
+    <view class=" view_left">
+      <view class=" view_cover">
+        <image class="img_cover" mode="scaleToFill" src="{{bookdetail.image}}" />
+      </view>
+      <view class="view_colbor">
+        <view class=" view_collect">
+          <image class="img_collect" mode="scaleToFill" src="../../images/collection.png" />
+          <text class="c-block text_collect">收藏</text>
+        </view>
+        <view class=" view_borrow">
+          <image class="img_borrow" mode="scaleToFill" src="../../images/borrow.png" />
+          <text class="c-block text_borrow">借阅</text>
+        </view>
+      </view>
+    </view>
+    <view class=" view_right">
+      <text class="c-block text_book">书名：{{bookdetail.title}}</text>
+      <text class="c-block text_book">作者：{{bookdetail.author}}</text>
+      <text class="c-block text_book">ISBN10：{{bookdetail.isbn10}}</text>
+      <text class="c-block text_book">出版社：{{bookdetail.publisher}}</text>
+    </view>
+  </view>
+
+  <!-- 上部分end -->
+
+  <!-- 下部分start -->
+  <view class=" view_bottom">
+    <view class=" view_intro">
+      <text class="c-block text_intro">作者简介：</text>
+      <text class="c-block text_detail">{{bookdetail.author_intro}}</text>
+    </view>
+    <view class=" view_intro">
+      <text class="c-block text_intro">图书简介：</text>
+      <text class="c-block text_detail">{{bookdetail.summary}}</text>
+    </view>
+    <view class=" view_intro">
+      <text class="c-block text_intro">目录：</text>
+      <text class="c-block text_detail">{{bookdetail.catalog}}</text>
+    </view>
+  </view>
+
+  <!-- 下部分end -->
+</view>
+<view>
+  <loading hidden="{{hidden}}">
+    加载中...
+  </loading>
+</view>

@@ -1,0 +1,29 @@
+page{
+    background-color: #FFFFE0;
+}
+.view_top{
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+    border-bottom:1rpx solid blanchedalmond;
+}
+.view_bottom{
+    border:1rpx solid grey;
+    border-radius: 3px;
+    border-bottom: 0;
+    width:95%;
+    margin:10px auto;
+}
+.view_table{
+    border-bottom: 1rpx solid grey;
+    height:32px;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+.navigator{
+    font-size: 16px;
+    /*设置靠左*/
+    margin: auto 10px;
+}

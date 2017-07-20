@@ -1,0 +1,103 @@
+.divly {
+    position: absolute;
+    top: 195px;
+    width: 90%;
+    height: 502px;
+    left:5%;
+    margin-bottom: 10px;
+    background-color: rgba(255, 226, 0, 0.13);
+}
+
+.divly1 {
+    position: relative;
+    float: left;
+    height: 502px;
+    background-color: aqua;
+}
+
+.divly2 {
+    position: relative;
+    float: left;
+    height: 500px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.divly3 {
+    position: relative;
+    float: right;
+    height: 500px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.img {
+    position: relative;
+    left: 20px;
+    top: 40px;
+    display: none;
+}
+
+.img2 {
+    position: relative;
+    left: 20px;
+    top: 150px;
+    display: none;
+}
+
+.img3 {
+    position: absolute;
+    left: 20px;
+    top: 280px;
+    display: none;
+}
+
+.font {
+    font-size: 40px;
+    font-family: 方正舒体;
+    color: rgba(255, 0, 0, 0.69);
+}
+
+.font2 {
+    position: relative;
+    top: 60px;
+    font-size: 30px;
+    font-family: 华文行楷;
+    color: black;
+}
+
+.font3 {
+    position: relative;
+    top: 80px;
+    font-size: 20px;
+    font-family: 华文行楷;
+    color: black;
+}
+
+.button {
+    position: relative;
+    top: 34px;
+    float: right;
+    right: 15px;
+    width: 113px;
+    height: 52px;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: white;
+    border-width: 12px;
+    border-color: #cc6600;
+}
+
+.button:hover {
+    color: red;
+}
+
+textarea {
+    position: relative;
+    top: 23px;
+    width: 68%;
+    font-size: 15px;
+    height: 352px;
+    font-family: 宋体;
+    resize: none;
+}

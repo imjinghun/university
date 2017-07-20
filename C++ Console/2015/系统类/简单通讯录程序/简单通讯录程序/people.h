@@ -1,0 +1,17 @@
+#pragma once
+#include<iostream>
+#include<string>
+
+using namespace std;
+class people
+{
+	
+public:
+	int bianh,age;
+	string name,sex,zhaid,shouji;
+	void input();// ‰»Î
+	void output();// ‰≥ˆ
+	people(void);
+	~people(void);
+};
+

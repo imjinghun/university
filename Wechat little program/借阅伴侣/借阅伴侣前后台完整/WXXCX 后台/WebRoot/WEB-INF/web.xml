@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>AddBooking</servlet-name>
+    <servlet-class>servlet.AddBooking</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddCollection</servlet-name>
+    <servlet-class>servlet.AddCollection</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddBorrow</servlet-name>
+    <servlet-class>servlet.AddBorrow</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DelCollection</servlet-name>
+    <servlet-class>servlet.DelCollection</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DelBorrow</servlet-name>
+    <servlet-class>servlet.DelBorrow</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryCollect</servlet-name>
+    <servlet-class>servlet.QueryCollect</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryBorrow</servlet-name>
+    <servlet-class>servlet.QueryBorrow</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryBooking</servlet-name>
+    <servlet-class>servlet.QueryBooking</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DelBooking</servlet-name>
+    <servlet-class>servlet.DelBooking</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetOpenid</servlet-name>
+    <servlet-class>servlet.GetOpenid</servlet-class>
+  </servlet>
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AddBooking</servlet-name>
+    <url-pattern>/servlet/AddBooking</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCollection</servlet-name>
+    <url-pattern>/servlet/AddCollection</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddBorrow</servlet-name>
+    <url-pattern>/servlet/AddBorrow</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelCollection</servlet-name>
+    <url-pattern>/servlet/DelCollection</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelBorrow</servlet-name>
+    <url-pattern>/servlet/DelBorrow</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryCollect</servlet-name>
+    <url-pattern>/servlet/QueryCollect</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryBorrow</servlet-name>
+    <url-pattern>/servlet/QueryBorrow</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryBooking</servlet-name>
+    <url-pattern>/servlet/QueryBooking</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelBooking</servlet-name>
+    <url-pattern>/servlet/DelBooking</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetOpenid</servlet-name>
+    <url-pattern>/servlet/GetOpenid</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

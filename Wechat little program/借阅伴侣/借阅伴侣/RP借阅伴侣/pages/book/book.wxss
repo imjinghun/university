@@ -1,0 +1,55 @@
+.view_top {
+  min-height: 40px;
+  height: 8%;
+  position: relative;
+  display: block;
+  background-color: rgb(240, 245, 211);
+}
+
+.scroll-view {
+  height: 92%;
+  font-size: 16px;
+  position: absolute;
+  background-color: #fffacd;
+}
+
+.view {
+  margin: 10px;
+}
+
+.btn_before {
+  width: 100px;
+  margin: auto auto auto 20px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  position: absolute;
+  display: inline-block;
+  height: 40px;
+}
+
+.text {
+  display: inline-block;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 12px;
+  bottom: 0;
+  text-align: center;
+  font-size: 16px;
+  width:100px;
+}
+
+.btn_after {
+  width: 100px;
+  height: 40px;
+  margin: auto 20px auto auto;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  position: absolute;
+  display: inline-block;
+}

@@ -1,0 +1,21 @@
+<import src="../../wxParse/wxParse.wxml" />
+
+<view class="view_top">
+  <button class="btn_before" hover-class="button-hover" size="default" type="default" catchtap="ctapbefore">
+    上一页
+  </button>
+  <text class="text">左滑返回目录</text>
+  <button class="btn_after" hover-class="button-hover" size="default" type="default" catchtap="ctapafter">
+    下一页
+  </button>
+</view>
+<scroll-view class="scroll-view" lower-threshold="50" scroll-y="True" style="overflow-x: hidden; overflow-y: auto;" upper-threshold="50">
+  <view class="view">
+    <template is="wxParse" data="{{wxParseData}}" />
+  </view>
+</scroll-view>
+<view>
+    <loading hidden="{{hidden}}">
+      加载中...
+    </loading>
+</view>

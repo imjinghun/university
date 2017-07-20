@@ -1,0 +1,88 @@
+.divuf {
+     position: absolute;
+     left: 500px;
+     top: 30px;
+     height: 50px;
+     line-height: 30px;
+ }
+.divuf font{
+    font-family: 华文行楷;
+    font-size: 30px;
+    color:coral;
+}
+
+.divInfo{
+    position:relative;
+    left:5%;
+    top:130px;
+    width:90%;
+    height:185px;
+    background-color:#fff7cc;
+}
+.divInfohr1{
+    position:relative;
+    width:40%;
+    top:70px;
+    float:left;
+}
+.divInfohr2{
+    position:relative;
+    width:40%;
+    top:70px;
+    float:right;
+}
+.divInfotx{
+    float:left;
+    position:relative;
+    width:10%;
+    left:5%;
+    top:30px;
+    text-align:center;
+}
+.divInfotx a{
+    margin-top:-30px;
+    text-decoration:none;
+    float:left;
+    margin-left:25%; 
+    font-size:16px;
+    background-color: rgba(27, 31, 31, 0.45);
+    color:white;
+    display: none;
+}
+.divInfotx a:hover{
+    background-color: rgba(27, 31, 31, 0.45);
+    border-radius: 4px;
+}
+
+.divzl{
+    position:relative;
+    left:5%;
+    top:130px;
+    width:90%;
+    
+    background-color:rgba(255, 250, 223, 0.81);
+}
+.divzlxq{
+    position:relative;
+    left:5%;
+    top:10px;
+    background-color:rgba(244, 207, 12, 0.69);
+    width:90%;
+}
+
+.zlxq{
+    position:relative;
+    top:10px;
+    left:2.5%;
+    font-weight:bold;
+    font-size:16px;
+}
+.button1{
+    background-color:azure;
+    float:right;
+    border:1px solid #a39e9e;
+}
+.button1:hover
+{
+    background-color:rgba(166, 168, 168, 0.76);
+}

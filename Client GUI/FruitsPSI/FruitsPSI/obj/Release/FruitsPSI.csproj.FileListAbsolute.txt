@@ -1,0 +1,17 @@
+E:\C#program\FruitsPSI\FruitsPSI\bin\Release\FruitsPSI.exe.config
+E:\C#program\FruitsPSI\FruitsPSI\bin\Release\FruitsPSI.exe
+E:\C#program\FruitsPSI\FruitsPSI\bin\Release\FruitsPSI.pdb
+E:\C#program\FruitsPSI\FruitsPSI\obj\Release\FruitsPSI.FrmLogin.resources
+E:\C#program\FruitsPSI\FruitsPSI\obj\Release\FruitsPSI.FrmRegister.resources
+E:\C#program\FruitsPSI\FruitsPSI\obj\Release\FruitsPSI.Properties.Resources.resources
+E:\C#program\FruitsPSI\FruitsPSI\obj\Release\FruitsPSI.csproj.GenerateResource.Cache
+E:\C#program\FruitsPSI\FruitsPSI\obj\Release\FruitsPSI.exe
+E:\C#program\FruitsPSI\FruitsPSI\obj\Release\FruitsPSI.pdb
+E:\C#program\FruitsPSI\FruitsPSI\obj\Release\FruitsPSI.FrmMain.resources
+E:\C#program\FruitsPSI\FruitsPSI\obj\Release\FruitsPSI.FrmChangePwd.resources
+E:\C#program\FruitsPSI\FruitsPSI\bin\Release\EntityFramework.dll
+E:\C#program\FruitsPSI\FruitsPSI\bin\Release\EntityFramework.SqlServer.dll
+E:\C#program\FruitsPSI\FruitsPSI\bin\Release\EntityFramework.xml
+E:\C#program\FruitsPSI\FruitsPSI\bin\Release\EntityFramework.SqlServer.xml
+E:\C#program\FruitsPSI\FruitsPSI\obj\Release\FruitsPSI.FrmSPSelect.resources
+E:\C#program\FruitsPSI\FruitsPSI\obj\Release\FruitsPSI.csprojResolveAssemblyReference.cache

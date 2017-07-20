@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "任务二 日期类", "任务二 日期类\任务二 日期类.vcproj", "{119F1084-0C8B-4F1D-AECB-B2A212846875}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{119F1084-0C8B-4F1D-AECB-B2A212846875}.Debug|Win32.ActiveCfg = Debug|Win32
+		{119F1084-0C8B-4F1D-AECB-B2A212846875}.Debug|Win32.Build.0 = Debug|Win32
+		{119F1084-0C8B-4F1D-AECB-B2A212846875}.Release|Win32.ActiveCfg = Release|Win32
+		{119F1084-0C8B-4F1D-AECB-B2A212846875}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

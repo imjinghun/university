@@ -1,0 +1,44 @@
+
+<!-- 页面上部分 start -->
+<view class="c-minheight view_top">
+  <view class="c-minheight view_logo">
+    <image class="image_logo" src="../../images/search.png" />
+    <text class="c-block text_logo">搜你所想</text>
+  </view>
+  <input class="c-block c-fullwidth input_search" name="input1" placeholder="书名、编号等" type="text" bindinput="inputsearch" bindfocus="showhistory" />
+  <button catchtap="ctapsearch" class="btn_search">
+    搜索
+  </button>
+</view>
+
+<!-- 页面上部分 end -->
+
+<!-- 页面下部分 start -->
+<scroll-view class="c-minheight scroll-view_bottom" scroll-y="true" style="overflow-x: hidden; overflow-y:auto;">
+  <navigator class="view_bookclass" wx:for="{{bookclass}}" wx:key="{{item.id}}" url="../samebook/samebook?id={{item.id}}&name={{item.name}}">
+    <text style="margin-top:10px;display:block;">{{item.name}}</text>
+    <image src="../../images/bookclass.png" class="bgimg"></image>
+  </navigator>
+</scroll-view>
+
+<!-- 页面下部分 end -->
+
+<!-- 搜索历史 start -->
+<view class="{{showhidden}}">
+  <view class=" view_history">
+    <view class="view_htop">
+      <view class="view_lsjl">
+      <text class="text_ssls" catchtap="hiddenhistory">关闭</text>
+        <text class="text_ssls" style="float:right;">历史搜索</text>
+      </view>
+      <view class="view_img">
+        <image class="history_clear" src="../../images/del.png" bindtap="clearhistory" />
+      </view>
+    </view>
+    <block wx:for="{{history}}" wx:key="">
+      <navigator class="text_history" url="../search/search?searchkey={{item}}">{{item}}</navigator>
+    </block>
+  </view>
+</view>
+
+<!-- 搜索历史 end -->

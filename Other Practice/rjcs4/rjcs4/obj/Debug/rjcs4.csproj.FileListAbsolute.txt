@@ -1,0 +1,12 @@
+c:\users\肉干爸爸\documents\visual studio 2013\Projects\rjcs4\rjcs4\bin\Debug\rjcs4.exe.config
+c:\users\肉干爸爸\documents\visual studio 2013\Projects\rjcs4\rjcs4\bin\Debug\rjcs4.exe
+c:\users\肉干爸爸\documents\visual studio 2013\Projects\rjcs4\rjcs4\bin\Debug\rjcs4.pdb
+c:\users\肉干爸爸\documents\visual studio 2013\Projects\rjcs4\rjcs4\obj\Debug\rjcs4.csprojResolveAssemblyReference.cache
+c:\users\肉干爸爸\documents\visual studio 2013\Projects\rjcs4\rjcs4\obj\Debug\rjcs4.Form1.resources
+c:\users\肉干爸爸\documents\visual studio 2013\Projects\rjcs4\rjcs4\obj\Debug\rjcs4.Properties.Resources.resources
+c:\users\肉干爸爸\documents\visual studio 2013\Projects\rjcs4\rjcs4\obj\Debug\rjcs4.csproj.GenerateResource.Cache
+c:\users\肉干爸爸\documents\visual studio 2013\Projects\rjcs4\rjcs4\obj\Debug\rjcs4.exe
+c:\users\肉干爸爸\documents\visual studio 2013\Projects\rjcs4\rjcs4\obj\Debug\rjcs4.pdb
+C:\Users\jing\Documents\Tencent Files\1377525269\FileRecv\Projects1\rjcs4\rjcs4\bin\Debug\rjcs4.exe.config
+C:\Users\jing\Documents\Tencent Files\1377525269\FileRecv\Projects1\rjcs4\rjcs4\obj\Debug\rjcs4.exe
+C:\Users\jing\Documents\Tencent Files\1377525269\FileRecv\Projects1\rjcs4\rjcs4\obj\Debug\rjcs4.pdb

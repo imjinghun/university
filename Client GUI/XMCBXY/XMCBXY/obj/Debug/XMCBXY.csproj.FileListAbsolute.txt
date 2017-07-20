@@ -1,0 +1,9 @@
+E:\C#program\XMCBXY\XMCBXY\bin\Debug\XMCBXY.exe.config
+E:\C#program\XMCBXY\XMCBXY\bin\Debug\XMCBXY.exe
+E:\C#program\XMCBXY\XMCBXY\bin\Debug\XMCBXY.pdb
+E:\C#program\XMCBXY\XMCBXY\obj\Debug\XMCBXY.csprojResolveAssemblyReference.cache
+E:\C#program\XMCBXY\XMCBXY\obj\Debug\XMCBXY.Form1.resources
+E:\C#program\XMCBXY\XMCBXY\obj\Debug\XMCBXY.Properties.Resources.resources
+E:\C#program\XMCBXY\XMCBXY\obj\Debug\XMCBXY.csproj.GenerateResource.Cache
+E:\C#program\XMCBXY\XMCBXY\obj\Debug\XMCBXY.exe
+E:\C#program\XMCBXY\XMCBXY\obj\Debug\XMCBXY.pdb

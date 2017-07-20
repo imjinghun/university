@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="default" namespace="/" extends="struts-default">
+		<!-- 学生 -->
+		<action name="std_*" class="stdAction" method="{1}">
+			<result name="loginSuccess">/index.jsp</result>
+			<result name="loginFail">/login.jsp</result>
+			<result name="saveSuccess">/register.jsp</result>
+			<result name="saveFail">/register.jsp</result>
+			<result name="deleteSuccess">./Student/stdList.jsp</result>
+			<result name="updateSuccess">./Student/stdList.jsp</result>
+			<result name="updateFail">./Student/stdEdit.jsp</result>
+		</action>
+		<!-- 班级 -->
+		<action name="cs_*" class="csAction" method="{1}">
+			<result name="saveSuccess">./Classes/csAdd.jsp</result>
+			<result name="saveFail">./Classes/csAdd.jsp</result>
+			<result name="deleteSuccess">./Classes/csList.jsp</result>
+			<result name="updateSuccess">./Classes/csList.jsp</result>
+			<result name="updateFail">./Classes/csEdit.jsp</result>
+		</action>
+		<!-- 课程 -->
+		<action name="cr_*" class="crAction" method="{1}">
+			<result name="saveSuccess">./Course/crAdd.jsp</result>
+			<result name="saveFail">./Course/crAdd.jsp</result>
+			<result name="deleteSuccess">./Course/crList.jsp</result>
+			<result name="updateSuccess">./Course/crList.jsp</result>
+			<result name="updateFail">./Course/crEdit.jsp</result>
+		</action>
+		<!-- 成绩录入 -->
+		<action name="grade_*" class="gdAction" method="{1}">
+			<result name="XuankeSuccess">./Grade/gradeAdd.jsp</result>
+			<result name="saveSuccess">./Grade/gradeAdd.jsp</result>
+			<result name="xsSuccess">/index.jsp</result>
+		</action>
+	</package>
+</struts>    

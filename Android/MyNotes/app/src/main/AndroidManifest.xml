@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.jing.mynotes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity">
+        </activity>
+        <activity android:name=".AboutActivity">
+        </activity>
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".BooktypeActivity">
+        </activity>
+        <activity android:name=".BooktypeListActivity">
+        </activity>
+        <activity android:name=".BookActivity">
+        </activity>
+        <activity android:name=".BookListActivity">
+        </activity>
+        <activity android:name=".NotesActivity">
+        </activity>
+        <activity android:name=".NotesCountActivity">
+        </activity>
+    </application>
+
+</manifest>
