@@ -1,4 +1,4 @@
-﻿说明：
+说明：
 
 Java Web：
 
@@ -6,29 +6,29 @@ Java Web：
 	
 	TechNeedSystem ：《河北重大技术需求征集系统模拟》 无框架
 
-	NeedMis ：《河北重大技术需求征集系统模拟》 SSH框架
+	NeedMis ：《河北重大技术需求征集系统模拟》 SSH框架 主要是一个信息征集的系统，对征集结果进行分析等
 	
-	SSZYT ：《师生作业通》 留作业 传文件平台
+	SSZYT ：《师生作业通》 留作业、传文件平台，老师学生可以在线留言交互等
 	
-	Book ：《图书管理系统》只用Struts2
+	Book ：《图书管理系统》只用Struts2 对图书信息进行增删改查等操作
 	
-	ClassMis和ClassMis2 ：《简单班级管理系统》 ClassMis用Struts2和hibernate，ClassMis2用SSH
+	ClassMis和ClassMis2 ：《简单班级管理系统》 对班级信息进行管理 ClassMis用Struts2和hibernate，ClassMis2用SSH
 
-	Movie2：（二次开发）基于HBase数据库的电影网站
+	Movie2：（二次开发）基于HBase数据库的电影网站，推荐合适的电影
 	
 Client：
 	
 	FruitsPSI ：《水果进销存软件》 C#编写 使用EF框架 
 	
-	XMCBXY ：《项目成本效益评价软件》 （软件过程与管理课程任务）C#编写
+	XMCBXY ：《项目成本效益评价软件》 （软件过程与管理，对项目成本效益进行计算得出结果）C#编写
 	
 Android：
 
-	MyNotes ：《读书笔记》 安卓app 
+	MyNotes ：《读书笔记》 安卓app  记录多用户读书笔记等
 	
-	SSZYT2：《师生作业通》安卓端
+	SSZYT2：《师生作业通》安卓端 
 	
-	ZKP：大二做的一个记事本
+	ZKP：大二做的有关课程信息记录查看，以及记事等功能的app
 	
 C++ Console：C++控制台的一些代码
 
@@ -36,7 +36,7 @@ Java Console：Java控制台的一些代码
 
 PHP：php的一些练习代码
 
-Wechat little program：微信小程序代码
+Wechat little program：微信小程序代码 一个借阅图书的小程序
 	
 Other Practice：一些练习的代码
 
